@@ -1,5 +1,4 @@
 "use client";
-import { useState } from "react";
 import useAOS from "../functions/useAOS";
 import Link from "next/link";
 import Image from "next/image";
@@ -15,14 +14,6 @@ interface Props {
 }
 
 const Intro = (props: Props) => {
-  const [width, setWidth] = useState(true);
-  window.addEventListener("resize", () => {
-    if (window.innerWidth < 500) {
-      setWidth(false);
-    } else {
-      setWidth(true);
-    }
-  });
   const style = {
     transform: "translateX(50px)",
   };
@@ -66,7 +57,7 @@ const Intro = (props: Props) => {
         </div>
       ) : (
         <div className="intro-container">
-          <div className="intro-img" style={width ? style : {}}>
+          <div className="intro-img" style={style}>
             <Image
               src={props.img1}
               alt="Intro image"
