@@ -1,16 +1,23 @@
-import Images from "./Data/Images";
+import Images from "../data/Images";
 import {
   DestinationPackagesArray,
   EthiopiaTourPackagesArray,
   ToursByExperienceArray,
-} from "./Data/PackagesArray";
-import GenericGrid from "./components/GenericGrid";
-import Hero from "./components/Hero";
-import Intro from "./components/Intro";
-import IntroPackages from "./components/IntroPackages";
-import PackagesList from "./components/PackagesList";
-import PlannerPolaroid from "./components/PlannerPolaroid";
-import Slider from "./components/Slider";
+} from "../data/PackagesArray";
+import GenericGrid from "../components/GenericGrid";
+import Hero from "../components/Hero";
+import Intro from "../components/Intro";
+import IntroPackages from "../components/IntroPackages";
+import PackagesList from "../components/PackagesList";
+import PlannerPolaroid from "../components/PlannerPolaroid";
+import Slider from "../components/Slider";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Home – Sawla Tours",
+  description:
+    "A boutique tour specialist celebrated for our personalized, bespoke Ethiopian experiences. Our two-decade legacy in crafting exceptional tours and safaris aligns our thrill for exploration with a profound commitment to community conservation and development.",
+};
 
 export default function Home() {
   return (

@@ -1,4 +1,5 @@
-import { GridPackagesArray } from "../Data/PackagesArray";
+import Image from "next/image";
+import { GridPackagesArray } from "../data/PackagesArray";
 GridPackagesArray;
 const GenericGrid = () => {
   const packages = GridPackagesArray;
@@ -9,10 +10,12 @@ const GenericGrid = () => {
           return (
             <div className="grid-package" key={index}>
               <div className="grid-image-container">
-                <img
+                <Image
                   src={item.image}
                   alt="package"
                   className="grid-package-img"
+                  width={500}
+                  height={500}
                 />
               </div>
               <div className="grid-package-description">

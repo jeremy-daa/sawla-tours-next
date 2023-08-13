@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import Images from "../Data/Images";
+import Images from "../data/Images";
 
 const PlannerPolaroid = () => {
   return (

@@ -1,7 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
+import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
   title: "Sawla Tours",

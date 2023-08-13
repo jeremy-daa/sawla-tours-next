@@ -5,7 +5,7 @@ import {
   BsYoutube,
   BsCaretRight,
 } from "react-icons/bs";
-import Logo from "../../public/assets/logo.png";
+import Logo from "../public/assets/logo.png";
 import Image from "next/image";
 import Link from "next/link";
 import NavLink from "./NavLink";

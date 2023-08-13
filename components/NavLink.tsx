@@ -13,7 +13,7 @@ interface NavLinkProps {
 
 const NavLink = ({
   href,
-  exact = false,
+  exact = true,
   children,
   className = "",
   onClick,

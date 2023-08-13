@@ -12,10 +12,6 @@ interface Props {
 }
 
 const Intro = (props: Props) => {
-  const style = {
-    transform: "translateX(50px)",
-  };
-
   return (
     <section id="about" className="home-intro">
       {props.lr ? (
@@ -55,7 +51,7 @@ const Intro = (props: Props) => {
         </div>
       ) : (
         <div className="intro-container">
-          <div className="intro-img" style={style}>
+          <div className="intro-img">
             <Image
               src={props.img1}
               alt="Intro image"

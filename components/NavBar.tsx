@@ -1,6 +1,6 @@
 "use client";
-import Logo from "../../public/assets/logo.png";
-import LogoDark from "../../public/assets/logo_dark.png";
+import Logo from "../public/assets/logo.png";
+import LogoDark from "../public/assets/logo_dark.png";
 import { useEffect, useState } from "react";
 import HeadRoom from "react-headroom";
 import { CiMenuFries } from "react-icons/ci";
@@ -12,7 +12,7 @@ import {
   EthiopiaTourPackagesRoutes,
   TopDestinationsRoutes,
   ToursByExperienceRoutes,
-} from "../Data/PackagesArray";
+} from "../data/PackagesArray";
 import Link from "next/link";
 import NavLink from "./NavLink";
 import Image from "next/image";
@@ -79,7 +79,7 @@ const NavBar = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink href="ethiopia-tours" onClick={closeNavbar}>
+              <NavLink href="/ethiopia-tours" onClick={closeNavbar}>
                 Ethiopia Tours <BsFillCaretDownFill className="down-icon" />
               </NavLink>
               <ul className="submenu">
@@ -93,7 +93,7 @@ const NavBar = () => {
               </ul>
             </li>
             <li>
-              <NavLink href="top-destinations" onClick={closeNavbar}>
+              <NavLink href="/top-destinations" onClick={closeNavbar}>
                 Popular Destinations{" "}
                 <BsFillCaretDownFill className="down-icon" />
               </NavLink>
@@ -108,7 +108,7 @@ const NavBar = () => {
               </ul>
             </li>
             <li>
-              <NavLink href="tours-by-experience" onClick={closeNavbar}>
+              <NavLink href="/tours-by-experience" onClick={closeNavbar}>
                 Tours by Experiences{" "}
                 <BsFillCaretDownFill className="down-icon" />
               </NavLink>
@@ -123,7 +123,7 @@ const NavBar = () => {
               </ul>
             </li>
             <li>
-              <NavLink href="ethiopia-guide" onClick={closeNavbar}>
+              <NavLink href="/ethiopia-guide" onClick={closeNavbar}>
                 Ethiopia Guide
                 <BsFillCaretDownFill className="down-icon" />
               </NavLink>
@@ -139,7 +139,7 @@ const NavBar = () => {
             </li>
 
             <li>
-              <NavLink href="about-us" onClick={closeNavbar}>
+              <NavLink href="/about-us" onClick={closeNavbar}>
                 About Us
                 <BsFillCaretDownFill className="down-icon" />
               </NavLink>
@@ -170,7 +170,7 @@ const NavBar = () => {
               </ul>
             </li>
             <li>
-              <NavLink href="contact-us" onClick={closeNavbar}>
+              <NavLink href="/contact-us" onClick={closeNavbar}>
                 Contact Us
               </NavLink>
             </li>
