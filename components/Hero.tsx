@@ -1,5 +1,6 @@
+import Image from "next/image";
 interface Props {
-  background?: string;
+  background: string;
   index?: boolean;
   title?: string;
   description?: string;
@@ -15,15 +16,35 @@ const Hero = ({
   link,
   linkname,
 }: Props) => {
-  const style = {
-    background: `linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.3)
-    ),url("${background}") no-repeat fixed center center / cover`,
-  };
   return (
-    <div className="hero-wrap" style={style}>
+    <div
+      className="hero-wrap"
+      style={{
+        position: "relative",
+        width: "100%",
+        background: `linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.3)
+        )`,
+      }}
+    >
+      <Image
+        src={background}
+        alt={title ? title : ""}
+        width={1000}
+        height={1000}
+        style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          zIndex: -1,
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          filter: "brightness(0.75)",
+        }}
+      />
       {index ? (
         <div className="home-hero" data-aos="fade-up">
           <h1 className="heading">Embark on Extraordinary Journeys with us!</h1>
