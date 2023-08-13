@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { BsSearch } from "react-icons/bs";
 import NoPackages from "./NoPackages";
+import Image from "next/image";
 interface Props {
   title: string;
   placeholder: string;
@@ -60,9 +61,11 @@ const PackagesGrid = ({ title, placeholder, packages: array }: Props) => {
             return (
               <div className="grid-package" key={index}>
                 <div className="grid-image-container">
-                  <img
+                  <Image
                     src={item.image}
-                    alt="package"
+                    alt={item.title}
+                    width={400}
+                    height={400}
                     className="grid-package-img"
                   />
                 </div>
