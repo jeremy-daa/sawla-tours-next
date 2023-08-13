@@ -31,12 +31,7 @@ const PackagesList = (props: Props) => {
       <div className="packages">
         {props.packages.map((packageItem, index) => {
           return (
-            <div
-              className="package"
-              key={index}
-              data-aos={"fade-up"}
-              data-aos-duration="2000"
-            >
+            <div className="package" key={index}>
               <h2 className="package-title">
                 <LineBreak str={packageItem.title} />
               </h2>
@@ -56,12 +51,9 @@ const PackagesList = (props: Props) => {
                   {packageItem.days ? (
                     <p className="package-days">
                       <span>
-                        {
-                          //if days is a string add day, else add days
-                          typeof packageItem.days === "string"
-                            ? packageItem.days + " Day"
-                            : packageItem.days + " Days"
-                        }
+                        {typeof packageItem.days === "string"
+                          ? packageItem.days + " Day"
+                          : packageItem.days + " Days"}
                       </span>
                     </p>
                   ) : (

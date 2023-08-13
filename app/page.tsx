@@ -14,7 +14,7 @@ import Slider from "../components/Slider";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Home – Sawla Tours",
+  title: "Home - Sawla Tours",
   description:
     "A boutique tour specialist celebrated for our personalized, bespoke Ethiopian experiences. Our two-decade legacy in crafting exceptional tours and safaris aligns our thrill for exploration with a profound commitment to community conservation and development.",
 };

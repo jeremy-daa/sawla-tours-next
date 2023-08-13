@@ -1460,7 +1460,7 @@ export const EthiopiaGuideArray: Guide[] = [
     id: 9,
     title: "General Travel Tips ",
     description: "",
-    image: images.addis1,
+    image: images.bird1,
     link: "#description",
     linkname: "Read More",
     index: false,

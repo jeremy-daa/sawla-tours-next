@@ -1,7 +1,5 @@
 "use client";
 
-import "react-multi-carousel/lib/styles.css";
-
 import Card from "./Card";
 
 import { useEffect, useState } from "react";
