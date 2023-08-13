@@ -2,9 +2,10 @@
 import { useState } from "react";
 import useAOS from "../functions/useAOS";
 import Link from "next/link";
+import Image from "next/image";
 interface Props {
-  img1?: string;
-  img2?: string;
+  img1: string;
+  img2: string;
   title?: string;
   description?: string[];
   button?: string;
@@ -49,15 +50,35 @@ const Intro = (props: Props) => {
             )}
           </div>
           <div className="intro-img">
-            <img src={props.img1} alt="Intro image" />
-            <img src={props.img2} alt="Intro image" />
+            <Image
+              src={props.img1}
+              alt="Intro image"
+              width={1000}
+              height={1000}
+            />
+            <Image
+              src={props.img2}
+              alt="Intro image"
+              width={1000}
+              height={1000}
+            />
           </div>
         </div>
       ) : (
         <div className="intro-container">
           <div className="intro-img" style={width ? style : {}}>
-            <img src={props.img1} alt="Intro image" />
-            <img src={props.img2} alt="Intro image" />
+            <Image
+              src={props.img1}
+              alt="Intro image"
+              width={1000}
+              height={1000}
+            />
+            <Image
+              src={props.img2}
+              alt="Intro image"
+              width={1000}
+              height={1000}
+            />
           </div>
           <div className="intro-text">
             <h2 className="intro-heading">{props.title}</h2>
