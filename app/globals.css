@@ -328,6 +328,8 @@ nav ul li:hover > .submenu {
 @media only screen and (max-width: 768px) {
   .hero-wrap .heading {
     font-size: 2.5rem;
+    max-width: 80%;
+    margin: auto;
   }
   .hero-wrap .subheading {
     font-size: 30px;
@@ -3367,22 +3369,27 @@ input[type="number"]::-webkit-outer-spin-button {
   nav {
     position: absolute;
     top: 0;
-    left: -1000px;
+    left: -100%;
     z-index: 999;
-    width: auto;
+    width: 70%;
     height: 100vh;
-    opacity: 0;
+    opacity: 0.5;
     background: #fefefe;
     box-shadow: 2px 0 20px 0 rgba(0, 0, 0, 0.05);
+    transition: all 1s ease-in-out;
   }
   /* Show navigation when the checkbox is checked */
   #nav_check:checked ~ nav {
     left: 0;
+    opacity: 1;
   }
   #nav_check:checked ~ .hamburger {
     background-color: none;
   }
   .submenu {
+    display: none;
+  }
+  svg.down-icon {
     display: none;
   }
   /* Logo Styles */
