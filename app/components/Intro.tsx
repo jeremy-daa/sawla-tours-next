@@ -1,5 +1,3 @@
-"use client";
-import useAOS from "../functions/useAOS";
 import Link from "next/link";
 import Image from "next/image";
 interface Props {
@@ -17,7 +15,7 @@ const Intro = (props: Props) => {
   const style = {
     transform: "translateX(50px)",
   };
-  useAOS();
+
   return (
     <section id="about" className="home-intro">
       {props.lr ? (
@@ -44,8 +42,8 @@ const Intro = (props: Props) => {
             <Image
               src={props.img1}
               alt="Intro image"
-              width={1000}
-              height={1000}
+              width={500}
+              height={500}
             />
             <Image
               src={props.img2}

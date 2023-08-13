@@ -34,7 +34,7 @@ const NavBar = () => {
   };
   useEffect(() => {
     const handleScroll = () => {
-      const position = window.pageYOffset;
+      const position = window.scrollY;
       setScrollPosition(position);
     };
 
@@ -74,7 +74,7 @@ const NavBar = () => {
           </div>
           <ul>
             <li>
-              <NavLink href="/ " onClick={closeNavbar}>
+              <NavLink href="/" onClick={closeNavbar}>
                 Home
               </NavLink>
             </li>

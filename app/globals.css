@@ -209,7 +209,6 @@ nav ul li a.active {
   z-index: -999;
   display: none;
   top: 100%;
-  translate: 0 -15px;
 }
 .submenu li {
   margin: 5px 0;
@@ -439,7 +438,7 @@ nav ul li:hover > .submenu {
   color: var(--dark-light);
 }
 .intro-text .offset:hover,
-.offset:focus {
+.intro-text .offset:focus {
   box-shadow: 0 0 0 0 var(--dark), inset 6em 3.5em 0 0 var(--dark);
   color: var(--light-dark);
 }
@@ -798,15 +797,7 @@ nav ul li:hover > .submenu {
   padding-right: 50px;
 }
 
-#root
-  > div
-  > main
-  > div
-  > div.package-list-container
-  > div
-  > div
-  > h2
-  > span:nth-child(1),
+.packages .package .package-title span:nth-child(1),
 .packages .package .package-title span {
   font-size: 1.8rem;
   font-weight: 700;
@@ -820,15 +811,7 @@ nav ul li:hover > .submenu {
   padding-top: 20px;
   border-top: var(--theme) 5px solid;
 }
-#root
-  > div
-  > main
-  > div
-  > div.package-list-container
-  > div
-  > div
-  > h2
-  > span:nth-child(3) {
+.packages .package .package-title span:nth-child(3) {
   font-size: 1.3rem;
   font-weight: 400;
   font-family: "Averia Serif Libre", cursive;
@@ -1022,7 +1005,7 @@ h2.contact-us:hover {
   top: 0;
   width: 100%;
   height: auto;
-  background-image: url("/assets/footer.svg");
+  background-image: url("/assets/footer_1.svg");
   background-size: cover;
   background-position: center;
   color: var(--light);
@@ -2141,6 +2124,7 @@ div .planner-item-description {
   filter: blur(80px);
   opacity: 0.8;
   z-index: -1;
+  background: url("/assets/kafta_1.jpg") no-repeat center center/cover;
 }
 
 /* Map */

@@ -1,7 +1,3 @@
-"use client";
-
-import useAOS from "../functions/useAOS";
-
 interface Props {
   background?: string;
   index?: boolean;
@@ -26,7 +22,6 @@ const Hero = ({
       rgba(0, 0, 0, 0.3)
     ),url("${background}") no-repeat fixed center center / cover`,
   };
-  useAOS();
   return (
     <div className="hero-wrap" style={style}>
       {index ? (
