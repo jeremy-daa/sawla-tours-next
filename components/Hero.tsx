@@ -1,6 +1,6 @@
 import Image from "next/image";
 interface Props {
-  background: string;
+  background?: string;
   index?: boolean;
   title?: string;
   description?: string;
@@ -30,7 +30,7 @@ const Hero = ({
       }}
     >
       <Image
-        src={background}
+        src={background ? background : ""}
         alt={title ? title : ""}
         width={1000}
         height={1000}

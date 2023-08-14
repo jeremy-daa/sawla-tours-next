@@ -1193,3 +1193,13 @@ export const PopularDestinationsArray: Destination[] = [
     },
   },
 ];
+
+export const getDestination = (id: number) => {
+  const result = PopularDestinationsArray.filter(
+    (destination) => destination.id === id
+  );
+  if (result.length === 0) {
+    return null;
+  }
+  return result[0];
+};

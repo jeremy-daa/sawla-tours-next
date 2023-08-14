@@ -836,3 +836,11 @@ export const EthiopiaToursArray: Tour[] = [
     ],
   },
 ];
+
+export const getTour = (id: number) => {
+  const result = EthiopiaToursArray.filter((tour) => tour.id === id);
+  if (result.length === 0) {
+    return null;
+  }
+  return result[0];
+};

@@ -484,6 +484,7 @@ nav ul li:hover > .submenu {
 @media only screen and (max-width: 1100px) {
   .home-intro {
     height: auto;
+    min-height: auto;
   }
   .intro-img img {
     height: 170px;
@@ -2331,10 +2332,22 @@ div .planner-item-description {
   align-items: center;
   flex-direction: column;
 }
+.accordion-title {
+  font-size: 2.5rem;
+  width: fit-content;
+  margin: auto;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: "Averia Serif Libre", cursive;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  text-align: center;
+  padding: 15px 50px;
+  border-bottom: 5px solid var(--theme);
+}
 .accordion {
   width: 45%;
 }
-
 .accordion li {
   list-style: none;
   width: 100%;
@@ -2388,10 +2401,19 @@ input[type="checkbox"] {
   .accordion {
     width: 70%;
   }
+  .accordion-title {
+    font-size: 2rem;
+    width: auto;
+  }
 }
 @media screen and (max-width: 600px) {
   .accordion {
     width: 85%;
+  }
+  .accordion-title {
+    font-size: 1.5rem;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .descriptions-wrapper .description {
     width: 85%;

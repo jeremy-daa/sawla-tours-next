@@ -6,7 +6,6 @@ import PlannerPolaroid from "@/components/PlannerPolaroid";
 import Images from "@/data/Images";
 import { EthiopiaTourPackagesArraySimplified } from "@/data/PackagesArray";
 import { Metadata } from "next";
-import React from "react";
 export const metadata: Metadata = {
   title: "Ethiopia Tour Themes - Sawla Tours",
   description: `Bespoke Ethiopian Expeditions. Anywhere in Ethiopia. The journey themes you witness on our platform serve merely as an appetizer to the grand banquet of travel experiences we're capable of orchestrating. It's just a glimpse of what Sawla can offer. With a treasure trove of experience in crafting exceptional Ethiopian journeys, our team is ready to design an unforgettable adventure just for you. Every journey is unique, just like you, and always with a positive spin.`,

@@ -1605,3 +1605,10 @@ export const EthiopiaGuideArray: Guide[] = [
     ],
   },
 ];
+export const getGuide = (id: number) => {
+  const result = EthiopiaGuideArray.filter((guide) => guide.id === id);
+  if (result.length === 0) {
+    return null;
+  }
+  return result[0];
+};

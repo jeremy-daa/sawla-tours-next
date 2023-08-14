@@ -10485,3 +10485,13 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
     },
   },
 ];
+
+export const getItinerary = (id: number, experience: number) => {
+  const result = ExperiencesPackageItineraryArray.filter(
+    (item) => item.id === id && item.experience === experience
+  );
+  if (result.length === 0) {
+    return null;
+  }
+  return result[0];
+};

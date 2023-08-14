@@ -776,3 +776,13 @@ export const ExperiencesPackagesArray: ExperiencePackage[] = [
     },
   },
 ];
+
+export const getExperience = (id: number) => {
+  const result = ExperiencesPackagesArray.filter(
+    (experience) => experience.id === id
+  );
+  if (result.length === 0) {
+    return null;
+  }
+  return result[0];
+};

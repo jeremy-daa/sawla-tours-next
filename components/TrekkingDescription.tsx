@@ -1,3 +1,5 @@
+"use client";
+import Image from "next/image";
 import React from "react";
 import { useState } from "react";
 
@@ -62,7 +64,12 @@ const TrekkingDescription = ({ title, itineraries }: Props) => {
         return (
           <div key={index}>
             {itinerary.title && <h2>{itinerary.title}</h2>}
-            <img src={itinerary.image} alt={itineraryTitle} />
+            <Image
+              src={itinerary.image}
+              alt={itineraryTitle}
+              width={800}
+              height={800}
+            />
             <p className="trekking-description">
               {expandedItineraries[itineraryTitle]
                 ? renderDescription(itinerary.description)
