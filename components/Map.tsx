@@ -16,8 +16,8 @@ const Map = ({ title, description, image }: Props) => {
         src={image ? image : ""}
         alt={title ? title : ""}
         className="map inset-blurr"
-        width={500}
-        height={500}
+        width={1000}
+        height={1000}
       />
     </div>
   );
