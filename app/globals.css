@@ -70,7 +70,7 @@ header {
   position: sticky;
   top: 0;
   transition: 2s ease;
-  z-index: 1000;
+  z-index: 9999;
 }
 svg.down-icon {
   padding-top: 5px;
@@ -94,6 +94,7 @@ svg.down-icon {
   border-radius: 10px;
   padding: 10px;
 }
+
 nav .logo {
   display: none;
 }
@@ -380,6 +381,10 @@ nav ul li:hover > .submenu {
   align-items: center;
   min-height: 100vh;
   /* padding: 50px 0; */
+}
+.intro-container.color {
+  background: linear-gradient(180deg, var(--theme) 20%, rgb(202, 179, 76) 100%);
+  box-shadow: 0 0 10px 0 var(--dark);
 }
 
 .intro-container {
@@ -863,6 +868,17 @@ nav ul li:hover > .submenu {
 }
 .package-link.offset:focus {
   box-shadow: 0 0 0 0 var(--theme), inset 6em 3.5em 0 0 var(--theme);
+}
+.center-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.package-list-link {
+  /* margin: auto;
+  display: inline; */
+  color: var(--dark);
 }
 
 /* Media queries */
@@ -1905,12 +1921,11 @@ div .planner-item-description {
   height: 100%;
   position: relative;
   overflow: hidden;
-  margin-bottom: 50px;
 }
 
 .contact-map iframe {
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   border: none;
   filter: grayscale(0.5);
   transition: all 0.2s ease-in-out;
@@ -2125,7 +2140,7 @@ div .planner-item-description {
   filter: blur(80px);
   opacity: 0.8;
   z-index: -1;
-  background: url("/assets/kafta_1.jpg") no-repeat center center/cover;
+  background: url("/assets/inset_1.jpg") no-repeat center center/cover;
 }
 
 /* Map */
@@ -2328,6 +2343,7 @@ div .planner-item-description {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 50px 0;
 }
 .accordion-title {
   font-size: 2.5rem;
@@ -2699,6 +2715,19 @@ input[type="checkbox"] {
   align-items: flex-start;
   gap: 10px;
 }
+.confidentiality-statement {
+  width: 100%;
+  margin-top: 20px;
+}
+.confidentiality-statement p {
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: "Averia Serif Libre", cursive;
+  text-transform: uppercase;
+  color: var(--theme);
+}
+
 .enquire-form-group label {
   font-size: 0.9rem;
   font-weight: 500;

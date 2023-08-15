@@ -109,7 +109,7 @@ const NavBar = () => {
             </li>
             <li>
               <NavLink href="/tours-by-experience" onClick={closeNavbar}>
-                Tours by Experiences{" "}
+                Itineraries by Experience{" "}
                 <BsFillCaretDownFill className="down-icon" />
               </NavLink>
               <ul className="submenu">
@@ -176,9 +176,9 @@ const NavBar = () => {
             </li>
             <li className="enquire">
               <RiCompass3Fill />
-              <NavLink href="enquire" onClick={closeNavbar}>
+              <Link href="/enquire" onClick={closeNavbar}>
                 Start Planning
-              </NavLink>
+              </Link>
             </li>
           </ul>
         </nav>

@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import Intro from "@/components/Intro";
 import ItineraryDescription from "@/components/ItineraryDescription";
 import PlannerPolaroid from "@/components/PlannerPolaroid";
+import TrekkingDescription from "@/components/TrekkingDescription";
 import { getItinerary } from "@/data/ExperiencesPackagesItineraryArray";
 import { Metadata } from "next";
 import React from "react";
@@ -62,14 +63,27 @@ const page = ({ params: { id, id2 } }: Params) => {
                         : "Itinerary at a Glance"
                     }
                     destinations={tourdescription2.destinations}
+                    concact={index === 1 ? true : false}
                   />
                 </>
               ))}
           </div>
           {itinerary.itinerarydescription && (
-            <ItineraryDescription
-              title={itinerary.itinerarydescription.title}
-              itineraries={itinerary.itinerarydescription.itineraries}
+            // <ItineraryDescription
+            //   title={itinerary.itinerarydescription.title}
+            //   itineraries={itinerary.itinerarydescription.itineraries}
+            // />
+            <TrekkingDescription
+              title={
+                itinerary.itinerarydescription
+                  ? itinerary.itinerarydescription.title
+                  : ""
+              }
+              itineraries={
+                itinerary.itinerarydescription
+                  ? itinerary.itinerarydescription.itineraries
+                  : []
+              }
             />
           )}
           <PlannerPolaroid />

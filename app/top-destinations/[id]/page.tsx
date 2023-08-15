@@ -5,12 +5,20 @@ import Hero from "@/components/Hero";
 import Intro from "@/components/Intro";
 import PlannerPolaroid from "@/components/PlannerPolaroid";
 import { getDestination } from "@/data/PopularDestinationsArray";
+import { Metadata } from "next";
 import React from "react";
 type Params = {
   params: {
     id: string;
   };
 };
+export function generateMetadata({ params: { id } }: Params): Metadata {
+  const destination = getDestination(Number(id));
+  return {
+    title: destination ? destination.title + " - Sawla Tours" : "Not Found",
+    description: destination ? destination.description : "Not Found",
+  };
+}
 const page = ({ params: { id } }: Params) => {
   const destination = getDestination(Number(id));
   return (

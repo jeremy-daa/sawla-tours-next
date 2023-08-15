@@ -1,14 +1,10 @@
 import GenericGrid from "@/components/GenericGrid";
 import Hero from "@/components/Hero";
 import Intro from "@/components/Intro";
-import IntroPackages from "@/components/IntroPackages";
 import PackagesGrid from "@/components/PackagesGrid";
 import PlannerPolaroid from "@/components/PlannerPolaroid";
 import Images from "@/data/Images";
-import {
-  DestinationPackagesArray,
-  DestinationPackagesNameArray,
-} from "@/data/PackagesArray";
+import { DestinationPackagesNameArray } from "@/data/PackagesArray";
 import { Metadata } from "next";
 import React from "react";
 
@@ -39,13 +35,6 @@ const page = () => {
         link="#top-destinations"
         lr={true}
       />
-      <IntroPackages
-        id="top-destinations"
-        packages={DestinationPackagesArray}
-        title1="Our "
-        title2="Popular Destinations"
-        link="top-destinations"
-      />
       <Intro
         title="Unlock the secrets of a timeless land"
         subtitle="Journeys that go beyond the ordinary"
@@ -57,6 +46,7 @@ const page = () => {
         button="Our Popular Destinations"
         link="#top-destinations"
         lr={false}
+        color={true}
       />
       <PackagesGrid
         title="Our Destinations"

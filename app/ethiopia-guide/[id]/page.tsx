@@ -1,9 +1,13 @@
 import NotFound from "@/app/404";
+import Accordion from "@/components/Accordion";
 import DestinationDescription from "@/components/DestinationDescription";
+import GenericGrid from "@/components/GenericGrid";
 import Hero from "@/components/Hero";
 import Intro from "@/components/Intro";
+import PlannerPolaroid from "@/components/PlannerPolaroid";
 import SimpleDescription from "@/components/SimpleDescription";
 import { getGuide } from "@/data/EthiopiaGuideArray";
+import { restructureDescription } from "@/functions/restruct";
 import { Metadata } from "next";
 
 type Params = {
@@ -61,12 +65,18 @@ const page = ({ params: { id } }: Params) => {
                       reasons={content.destinationdescription.reasons}
                     />
                   )}
+
                   {content.simpledescription && (
-                    <SimpleDescription
-                      key={index}
-                      title={content.simpledescription.title}
-                      description={content.simpledescription.description}
-                    />
+                    <>
+                      {}
+                      <Accordion
+                        key={index}
+                        title={content.simpledescription.title}
+                        destinations={restructureDescription(
+                          content.simpledescription.description
+                        )}
+                      />
+                    </>
                   )}
                 </>
               ))}
@@ -91,6 +101,8 @@ const page = ({ params: { id } }: Params) => {
                 );
               }
             })}
+          <PlannerPolaroid />
+          <GenericGrid />
         </>
       ) : (
         <NotFound />

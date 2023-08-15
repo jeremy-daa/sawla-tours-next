@@ -13,6 +13,12 @@ const EnquireForm = () => {
   const [departureDate, setDepartureDate] = useState("");
   const [numberOfTravelers, setNumberOfTravelers] = useState("");
   const [packageName, setPackageName] = useState("");
+  const [destination, setDestination] = useState("");
+  const [accommodation, setAccommodation] = useState("");
+  const [activities, setActivities] = useState("");
+  const [budget, setBudget] = useState("");
+  const [currency, setCurrency] = useState("");
+  const [hearAboutUs, setHearAboutUs] = useState("");
   const [message, setMessage] = useState("");
   const [error, setError] = useState("");
   const errorRef = useRef<HTMLDivElement>(null);
@@ -59,6 +65,11 @@ const EnquireForm = () => {
       setDepartureDate("");
       setNumberOfTravelers("");
       setPackageName("");
+      setDestination("");
+      setAccommodation("");
+      setActivities("");
+      setBudget("");
+      setCurrency("");
       setMessage("");
       if (formRef.current) {
         emailjs
@@ -90,8 +101,8 @@ const EnquireForm = () => {
           Ready to Book Your Trip?
         </h1>
         <h2 ref={errorRef}>
-          Fill out the form below and we will get back to you as soon as
-          possible.
+          If you want to talk to us about your travel plans, please share as
+          much information as you can
         </h2>
         <form className="enquire-form" onSubmit={handleSubmit} ref={formRef}>
           <div className="enquire-form-error">{error && <p>{error}</p>}</div>
@@ -188,6 +199,91 @@ const EnquireForm = () => {
               <option value="placeholder">Custom Package</option>
             </select>
           </div>
+          <div className="enquire-form-group">
+            <label htmlFor="destination">Destination Preference</label>
+            <input
+              type="text"
+              name="destination"
+              id="destination"
+              placeholder="Enter your destination preference"
+              onChange={(e) => setDestination(e.target.value)}
+              value={destination}
+            />
+          </div>
+          <div className="enquire-form-group">
+            <label htmlFor="accommodation">
+              Transportation & Accommodation Preference
+            </label>
+            <input
+              type="text"
+              name="accommodation"
+              id="accommodation"
+              placeholder="Enter your accommodation preference"
+              onChange={(e) => setAccommodation(e.target.value)}
+              value={accommodation}
+            />
+          </div>
+          {/* •	Desired Activities & Experiences  */}
+          <div className="enquire-form-group">
+            <label htmlFor="activities">Activities & Experiences</label>
+            <input
+              type="text"
+              name="activities"
+              id="activities"
+              placeholder="Enter your desired activities & experiences"
+              onChange={(e) => setActivities(e.target.value)}
+              value={activities}
+            />
+          </div>
+
+          <div className="enquire-form-group">
+            <label htmlFor="budget">Budget Range</label>
+            <div className="arrival-departure-date">
+              <input
+                type="number"
+                name="budget"
+                id="budget"
+                placeholder="Enter your budget"
+                onChange={(e) => setBudget(e.target.value)}
+                value={budget}
+              />
+              <select
+                name="currency"
+                id="currency"
+                onChange={(e) => setCurrency(e.target.value)}
+                value={currency}
+              >
+                <option value="ETB">ETB</option>
+                <option value="USD">USD</option>
+                <option value="CAD">CAD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="AUD">AUD</option>
+                <option value="NZD">NZD</option>
+                <option value="INR">INR</option>
+                <option value="JPY">JPY</option>
+                <option value="CNY">CNY</option>
+              </select>
+            </div>
+          </div>
+          <div className="enquire-form-group">
+            <label htmlFor="hear-about-us">Where did you hear about us?</label>
+            <select
+              name="hear-about-us"
+              id="hear-about-us"
+              onChange={(e) => setHearAboutUs(e.target.value)}
+              value={hearAboutUs}
+            >
+              <option value="" disabled>
+                Select an option
+              </option>
+              <option value="Internet">Internet (Google, Bing, etc.)</option>
+              <option value="Social Media">Social Media</option>
+              <option value="Printed Advert">Printed Advert</option>
+              <option value="Refferal">Referral</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
 
           <div className="enquire-form-group">
             <label htmlFor="message">Message</label>
@@ -203,6 +299,14 @@ const EnquireForm = () => {
           <button type="submit" className="offset">
             Submit
           </button>
+          <div className="confidentiality-statement">
+            <p>
+              We value your trust and assure you that your information will be
+              kept confidential. Thank you for considering us for your travel
+              needs. We look forward to helping you explore the world in comfort
+              and style!
+            </p>
+          </div>
         </form>
       </div>
     </div>

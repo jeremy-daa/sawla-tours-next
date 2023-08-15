@@ -7,6 +7,8 @@ import Image from "next/image";
 interface Props {
   title: string;
   description?: string;
+  link?: string;
+  linkname?: string;
   packages: Package[];
 }
 
@@ -67,6 +69,15 @@ const PackagesList = (props: Props) => {
             </div>
           );
         })}
+      </div>
+      <div className="center-container">
+        {props.link ? (
+          <Link href={props.link} className="offset package-list-link">
+            {props.linkname}
+          </Link>
+        ) : (
+          ""
+        )}
       </div>
     </div>
   );

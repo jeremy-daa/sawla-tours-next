@@ -341,7 +341,7 @@ export const EthiopiaGuideArray: Guide[] = [
   },
   {
     id: 2,
-    title: "Ethiopia Travel Circuits",
+    title: "When to Visit Ethiopia?",
     description: "",
     image: images.gonder3,
     link: "#description",
@@ -349,7 +349,7 @@ export const EthiopiaGuideArray: Guide[] = [
     index: false,
     intro: [
       {
-        title: "When to Visit Ethiopia",
+        title: "When to Visit Ethiopia?",
         subtitle: "Unveiling the Perfect Time for Your Adventure",
         description: [
           "Ethiopia, a land of diverse landscapes and vibrant cultures, welcomes visitors year-round. However, to make the most of your journey, it's essential to consider the distinct seasonal characteristics of each region. Let's explore the best time to visit Ethiopia and uncover the captivating experiences that await you.",
@@ -364,27 +364,15 @@ export const EthiopiaGuideArray: Guide[] = [
         title: "Embark on Your Ethiopian Adventure",
         subtitle: "Unveiling the Perfect Time for Your Adventure",
         description: [
-          "Ethiopia, with its diverse landscapes, vibrant cultures, and year-round attractions, beckons you to embark on an unforgettable journey. Whether you choose to visit during the peak season of October to March or explore the off-season wonders from June to September, there's always something captivating awaiting you. The festivals throughout the year provide an immersive glimpse into Ethiopia's rich cultural tapestry, creating an experience unlike any other.",
-          "Sawla Tours is here to guide you on this remarkable adventure, providing expert knowledge and personalized itineraries to ensure your trip to Ethiopia exceeds your expectations. With our deep understanding of the country's regions and their seasonal characteristics, we'll help you make the most of your visit.",
-          "As you plan your journey, keep in mind that Ethiopia's weather and festival calendar can impact accommodation availability and prices. During peak festival periods, such as Ethiopian Christmas and Timkat, it's advisable to book well in advance to secure the best options.",
+          "Ethiopia's colorful cultures, striking landscapes, and all-year-round attractions are calling you for an adventure like no other. From peak season (October to March) to off-season wonders (June to September), captivating experiences await. Festivals throughout the year immerse you in a rich cultural tapestry.",
+          "Sawla Tours, with expert insights and tailored plans, ensures your Ethiopian trip surpasses your dreams. We'll guide you season by season to maximize your journey. Remember to book early during top festivals like Ethiopian Christmas and Timkat to snag the best deals.",
+          "Enjoy Ethiopia's warm hospitality, stunning vistas, and diverse cultural experiences, be it the ancient northern circuit, Omo Valley traditions, or the striking landscapes of the Danakil Depression.",
+          "Ready for the Ethiopian adventure of a lifetime? Contact Sawla Tours and let us be your guide to the magic of Ethiopia. Explore, immerse, and experience – we're here for you!",
         ],
         lr: true,
         img1: images.bale2,
         img2: images.lalibela5,
         button: "",
-        link: "/tours-by-experience",
-      },
-      {
-        title: "",
-        subtitle: "",
-        description: [
-          "No matter when you choose to visit Ethiopia, rest assured that you'll be greeted with warm hospitality, breathtaking landscapes, and a rich tapestry of cultural experiences. Explore the ancient wonders of the northern circuit, immerse yourself in the traditions of the Omo Valley, or witness the awe-inspiring landscapes of the Danakil Depression. Whatever your interests, Ethiopia promises an adventure of a lifetime.",
-          "So, when are you ready to embark on your Ethiopian journey? Contact Sawla Tours today to start planning your personalized itinerary and experience the magic of Ethiopia at its finest. Let us be your trusted guide as you discover the wonders of this captivating country.",
-        ],
-        lr: false,
-        img1: images.bale2,
-        img2: images.lalibela5,
-        button: "Explore Packages",
         link: "/tours-by-experience",
       },
     ],
@@ -439,6 +427,7 @@ export const EthiopiaGuideArray: Guide[] = [
                 "The Extreme North and South: Omo Valley and the Danakil Depression",
               description: [
                 "The Omo Valley, known for its rich cultural diversity, has a slightly different climate. Rains arrive earlier, starting in April and running through May. From June to September, while the northern regions experience rainfall, the Omo Valley enjoys high temperatures, making it an excellent time to visit.",
+                " On the other hand, the Danakil Depression presents a completely unique climate. This arid and extreme destination is scorching year-round, with temperatures averaging around 35°C. It's advisable to avoid visiting the Danakil from June to September when temperatures reach their peak, but any other time of the year is suitable for exploration.",
               ],
             },
           ],
@@ -483,17 +472,18 @@ export const EthiopiaGuideArray: Guide[] = [
               ],
               image: images.addis6,
             },
-          ],
-        },
-        simpledescription: {
-          title: "Beyond the Major Festivals",
-          description: [
             {
               title: "Sheikh Hussein",
               description: [
                 "Sheikh Hussein, an important pilgrimage site in the Oromo region, draws over 50,000 pilgrims during the Muslim months of Hajj and Rabi' al-Awwal. This sacred place holds great significance for Ethiopia's Muslim population, honoring Sheikh Hussein's miraculous legacy.",
               ],
+              image: images.sheikh1,
             },
+          ],
+        },
+        simpledescription: {
+          title: "Beyond the Major Festivals",
+          description: [
             {
               title: "Acacia Jazz & World Music Festival",
               description: [
@@ -558,7 +548,7 @@ export const EthiopiaGuideArray: Guide[] = [
     id: 4,
     title: "Hotels and Lodges in Ethiopia",
     description: "",
-    image: images.addis2,
+    image: images.chebera2,
     link: "#description",
     linkname: "Read More",
     index: false,
@@ -596,7 +586,7 @@ export const EthiopiaGuideArray: Guide[] = [
           "Sawla Tours is committed to curating exceptional accommodations that align with your travel preferences and desires. Whether you seek luxury, cultural immersion, or a connection with nature, we'll tailor your itinerary to ensure an unforgettable stay in Ethiopia. Embark on a journey that combines comfort, adventure, and cultural exploration, creating memories that will last a lifetime.",
         ],
         lr: true,
-        img1: images.axum5,
+        img1: images.chebera2,
         img2: images.lalibela4,
         button: "Start Planning",
         link: "/enquire",
@@ -927,7 +917,7 @@ export const EthiopiaGuideArray: Guide[] = [
                 "Discover the wonders of Kafta Shiraro National Park, a sanctuary for wildlife enthusiasts and nature lovers alike. This vast protected area is home to the largest global population of Heuglin's Gazelle, an impressive sight to behold. Marvel at the sight of elephants, ostriches, greater kudus, roan antelopes, and many other remarkable species that call this extraordinary park their home.",
                 "With its diverse habitats, including highland and riverine forests, savannas, and bushlands, Kafta Shiraro offers a rich wildlife experience. The park's elevated location ranges from 550 meters to 1800 meters, creating a dynamic environment for both animals and visitors. Immerse yourself in the natural beauty and witness the mono-modal rain patterns that coincide with the migratory movements of elephants in the area.",
               ],
-              image: images.kafta1,
+              image: images.kafta2,
             },
           ],
         },
@@ -936,15 +926,16 @@ export const EthiopiaGuideArray: Guide[] = [
   },
   {
     id: 6,
-    title: "Popular Ethiopia Wildlife",
-    description: "",
+    title: "Popular Wildlife in Ethiopia",
+    description:
+      "Embark on a wildlife adventure with Sawla Tours and delve into the wonders of Ethiopia's natural treasures. Our expertly crafted itineraries and knowledgeable guides will immerse you in the captivating world of Ethiopian wildlife, creating memories that will last a lifetime.",
     image: images.simien1,
     link: "#description",
     linkname: "Read More",
     index: false,
     intro: [
       {
-        title: "Ethiopia Wildlife",
+        title: "Popular Wildlife in Ethiopia",
         subtitle: "",
         description: [
           "Discover the captivating wildlife of Ethiopia, a country brimming with biodiversity and boasting numerous endemic species. At Sawla Tours, we are dedicated to providing immersive experiences that allow you to witness these magnificent animals in their natural habitats while ensuring their well-being. With 14 major wildlife reserves, Ethiopia is a haven for over 300 mammal species, including 39 that are found exclusively within its borders.",
@@ -1528,14 +1519,8 @@ export const EthiopiaGuideArray: Guide[] = [
             {
               title: "Money Matters",
               description: [
-                "The currency of Ethiopia is the birr, divided into 100 cents. Banknotes are available in denominations of 5, 10, 50, and 100 birr, while coins come in 1, 5, 10, 25, 50 cents, and 1 birr. Traveler's checks are not easily cashed outside major cities, but credit cards are accepted in selected hotels, lodges, and larger shops. ATMs in major cities allow cash withdrawals using VISA, Mastercard, and Union Pay debit cards, although reliance on them outside Addis Ababa is not recommended. US dollars are accepted at major establishments such as hotels and ticket offices, but local currency is required for shopping and travel outside Addis Ababa. USD can be exchanged for local currency at banks. Tipping in USD is acceptable.",
+                "The currency of Ethiopia is the birr, divided into 100 cents. Banknotes are available in denominations of 5, 10, 50, 100 and 200 birr, while coins come in 1, 5, 10, 25, 50 cents, and 1 birr. Traveler's checks are not easily cashed outside major cities, but credit cards are accepted in selected hotels, lodges, and larger shops. ATMs in major cities allow cash withdrawals using VISA, Mastercard, and Union Pay debit cards, although reliance on them outside Addis Ababa is not recommended. US dollars are accepted at major establishments such as hotels and ticket offices, but local currency is required for shopping and travel outside Addis Ababa. USD can be exchanged for local currency at banks. Tipping in USD is acceptable.",
                 "Please note that replacing lost or stolen cash is difficult, so it's advisable to bring US dollars in smaller denominations (10s and 5s) for tipping purposes. Changing birr back to a hard currency is a complicated process, so it's best to avoid it if possible, as US dollars are widely accepted. Keep bank receipts when exchanging birr back to dollars upon departure.",
-              ],
-            },
-            {
-              title: "Banking",
-              description: [
-                "Banks are easily accessible throughout Ethiopia, with operating hours typically from 8:00 am to at least 4:30 pm, Monday to Saturday. Ethiopian society relies heavily on cash transactions, but international bank/debit cards are accepted at most ATMs. However, it's unlikely that local currency can be advanced to credit cards. ATMs are readily available in cities but rare in rural areas, so it's recommended to withdraw sufficient cash before heading to remote regions. Keep your receipts when exchanging foreign currency to birr, as they are required to change unspent cash back into hard currency. The exchange rate may fluctuate moderately.",
               ],
             },
             {

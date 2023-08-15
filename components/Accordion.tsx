@@ -1,12 +1,15 @@
+import LineBreak from "./LineBreak";
+
 interface Props {
   title?: string;
   destinations: List[];
+  concact?: boolean;
 }
 interface List {
   title: string;
   description?: string;
 }
-const Accordion = ({ destinations, title }: Props) => {
+const Accordion = ({ destinations, title, concact }: Props) => {
   return (
     <div className="accordion-wrapper inset-blurr">
       <h2 className="accordion-title">{title}</h2>
@@ -15,10 +18,15 @@ const Accordion = ({ destinations, title }: Props) => {
           return (
             <li key={index}>
               <input type="checkbox" name="accordion" id={destination.title} />
-              <label htmlFor={destination.title}>{destination.title}</label>
-              {destination.description && (
+              <label htmlFor={destination.title}>
+                {destination.title}{" "}
+                {concact ? ` : ${destination.description}` : ""}
+              </label>
+              {!concact && destination.description && (
                 <div className="content">
-                  <p>{destination.description}</p>
+                  <p>
+                    <LineBreak doubleBreak str={destination.description} />
+                  </p>
                 </div>
               )}
             </li>

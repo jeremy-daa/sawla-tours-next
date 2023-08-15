@@ -38,14 +38,14 @@ export const DestinationPackagesArray: Package[] = [
   {
     title: "Simien Mountains: \nDiscover Africa's Sky-high Paradise",
     description:
-      "Welcome to the Simien Mountains, one of Ethiopia's most sought-after destinations. Nestled north of Gondar, this captivating region beckons adventurous travelers with its awe-inspiring landscapes, thrilling trekking routes, and unique wildlife encounters. Embark on a journey through 220 square kilometers of majestic peaks, plateaus, and valleys, and immerse yourself in the untouched beauty of Africa's finest mountain range.",
+      "Step into Ethiopia's well-kept secret, the Simien Mountains - a paradise perched high above the clouds, north of the ancient city of Gondar. This mesmerizing canvas of nature is a call to the heart of every wanderer, offering unparalleled landscapes, adrenaline-pumping trekking trails, and heart-stopping wildlife rendezvous. Traverse 220 square kilometers of stunning summits, sprawling plateaus, and verdant valleys. Delve into the pristine wilderness of Africa's most splendid mountain range.",
     link: "/top-destinations/2",
     image: Images.simien2,
   },
   {
     title: "Danakil Depression: \nThe Surreal Symphony of Fire and Brine!",
     description:
-      "Welcome to the otherworldly Danakil Depression, an awe-inspiring geological wonder that stands as one of the most unique environments on Earth. This extraordinary destination, known as the 'hottest place on the planet,' is home to salt lakes, lava lakes, volcanoes, and vibrant acidic springs, offering a truly captivating and alien experience.",
+      "The otherworldly Danakil Depression is an awe-inspiring geological wonder that stands as one of the most unique environments on Earth. This extraordinary destination, known as the 'hottest place on the planet,' is home to salt lakes, lava lakes, volcanoes, and vibrant acidic springs, offering a truly captivating and alien experience.",
     link: "/top-destinations/3",
     image: Images.danakil1,
   },
@@ -60,7 +60,7 @@ export const DestinationPackagesArray: Package[] = [
     title:
       "Tigray: \nAn Oasis of Culture Cradled in the Heart of History" /*Where History and Natural Beauty Unite*/,
     description:
-      "A land steeped in history and blessed with rich culture and awe-inspiring landscapes. This captivating region invites you to embark on a journey of discovery, where ancient rock churches, people with rich culture, stunning vistas, and luxurious lodges await. Immerse yourself in the rich heritage of Tigray, where every step unveils the secrets of a bygone era.",
+      "Tigray is a land steeped in history and blessed with rich culture and awe-inspiring landscapes. This captivating region invites you to embark on a journey of discovery, where ancient rock churches, people with rich culture, stunning vistas, and luxurious lodges await. Immerse yourself in the rich heritage of Tigray, where every step unveils the secrets of a bygone era.",
     link: "/top-destinations/5",
     image: Images.tigray1,
   },
@@ -68,7 +68,7 @@ export const DestinationPackagesArray: Package[] = [
     title:
       "Bahir Dar: \nA Mosaic of Monastic Magic and Mother Nature's Majesty!",
     description:
-      "A picturesque city nestled on the shores of the magnificent Lake Tana in Ethiopia. This vibrant destination, known for its historic monasteries, charming lodges, vibrant local markets, beautiful lakes, and the renowned Blue Nile Falls, will leave you awe-inspired at every turn.",
+      "Bahir Dar is a picturesque city nestled on the shores of the magnificent Lake Tana in Ethiopia. This vibrant destination, known for its historic monasteries, charming lodges, vibrant local markets, beautiful lakes, and the renowned Blue Nile Falls, will leave you awe-inspired at every turn.",
     link: "/top-destinations/6",
     image: Images.bahirdar1,
   },
@@ -121,7 +121,7 @@ export const DestinationPackagesArray: Package[] = [
     title:
       "Kafta Shiraro National Park: \nMarvel at Africa's Wild Northern Frontier",
     description:
-      "Step into the unspoiled heart of Ethiopia's wilderness at Kafta Shiraro National Park, a refuge for the largest population of Heuglin's Gazelles globally and the northernmost African elephants.",
+      "Step into the unspoiled heart of Ethiopia's wilderness at Kafta Shiraro National Park, a refuge for the largest population of Heuglin’s Gazelles globally and the northernmost African elephants.",
     link: "/top-destinations/13",
     image: Images.kafta1,
   },
@@ -398,7 +398,7 @@ export const EthiopiaGuideArray: Package[] = [
     image: Images.simien5,
   },
   {
-    title: "Ethiopia Wildlife",
+    title: "Popular Wildlife in Ethiopia",
     description:
       "Discover the captivating wildlife of Ethiopia, a country brimming with biodiversity and boasting numerous endemic species. At Sawla Tours, we are dedicated to providing immersive experiences that allow you to witness these magnificent animals in their natural habitats while ensuring their well-being. With 14 major wildlife reserves, Ethiopia is a haven for over 300 mammal species, including 39 that are found exclusively within its borders.",
     link: "/ethiopia-guide/6",
@@ -632,7 +632,7 @@ export const EthiopiaGuideRoutes: Route[] = [
     link: "/ethiopia-guide/5",
   },
   {
-    title: "Ethiopia Wildlife",
+    title: "Popular Wildlife in Ethiopia",
     link: "/ethiopia-guide/6",
   },
   {
@@ -664,7 +664,7 @@ export const GridPackagesArray: GridPackage[] = [
     link: "/top-destinations",
   },
   {
-    title: "Tours by Experience",
+    title: "Itineraries By Experience",
     image: Images.lalibela2,
     link: "/tours-by-experience",
   },

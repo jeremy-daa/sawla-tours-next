@@ -2,8 +2,9 @@ import { Fragment } from "react";
 
 interface Props {
   str: string;
+  doubleBreak?: boolean;
 }
-const LineBreak = ({ str }: Props) => {
+const LineBreak = ({ str, doubleBreak }: Props) => {
   return (
     <>
       {
@@ -13,6 +14,7 @@ const LineBreak = ({ str }: Props) => {
             <Fragment key={index}>
               <span>{item}</span>
               <br />
+              {doubleBreak && <br />}
             </Fragment>
           );
         })

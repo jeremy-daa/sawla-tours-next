@@ -49,6 +49,7 @@ export default function page({ params: { id } }: Params) {
                 img2={tour?.intro[0].img2}
                 button={tour?.intro[0].button}
                 link={tour?.intro[0].link}
+                subtitle={tour?.intro[0].subtitle}
               />
             )}
             {tour?.map && (
@@ -67,15 +68,27 @@ export default function page({ params: { id } }: Params) {
                 img2={tour?.intro[1].img2}
                 button={tour?.intro[1].button}
                 link={tour?.intro[1].link}
+                subtitle={tour?.intro[1].subtitle}
               />
             )}
             {tour?.tourdescription && (
-              <TourDescription
-                title={tour?.tourdescription.title}
-                image={tour?.tourdescription.image}
-                description={tour?.tourdescription.description}
-                link={tour?.experience}
-              />
+              <>
+                {/* <TourDescription
+                  title={tour?.tourdescription.title}
+                  image={tour?.tourdescription.image}
+                  description={tour?.tourdescription.description}
+                  link={tour?.experience}
+                /> */}
+                <Intro
+                  title={tour?.tourdescription.title}
+                  description={tour?.tourdescription.description}
+                  lr={true}
+                  img1={tour?.intro[0].img1}
+                  img2={tour?.tourdescription.image}
+                  button={"More on the Itinerary"}
+                  link={`/tours-by-experience/${tour?.experience}`}
+                />
+              </>
             )}
             {tour.intro[2] && (
               <Intro
@@ -86,13 +99,7 @@ export default function page({ params: { id } }: Params) {
                 img2={tour?.intro[2].img2}
                 button={tour?.intro[2].button}
                 link={tour?.intro[2].link}
-              />
-            )}
-            {tour?.tourdescription2 && (
-              <TourDescription2
-                title={tour?.tourdescription2.title}
-                destinations={tour?.tourdescription2.destinations}
-                description={tour?.tourdescription2.description}
+                subtitle={tour?.intro[2].subtitle}
               />
             )}
             {tour?.intro.slice(3).map((intro, index) => (
@@ -105,6 +112,7 @@ export default function page({ params: { id } }: Params) {
                 img2={intro.img2}
                 button={intro.button}
                 link={intro.link}
+                subtitle={intro.subtitle}
               />
             ))}
 

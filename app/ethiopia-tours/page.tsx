@@ -35,7 +35,7 @@ const page = () => {
       />
       <div className="ethiopia-tours-wrapper">
         <PackagesList
-          title="Ethiopia Tour Theme Packages"
+          title="Ethiopia Tour Themes"
           packages={EthiopiaTourPackagesArraySimplified}
           description="Dive into uncharted territories and wilderness, be part of meaningful conservation efforts, elevate your travel dreams in untouched spots, and soak in genuine cultural moments."
         />

@@ -43,7 +43,15 @@ const Footer = () => {
               <a href="/">Monday - Friday</a>
             </li>
             <li>
-              <a href="/">8:00 AM - 5:00 PM</a>
+              <a href="/">09:00 - 17:30</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="/">Saturday</a>
+            </li>
+            <li>
+              <a href="/">10:00 - 13:00 </a>
             </li>
           </ul>
         </div>
@@ -74,7 +82,7 @@ const Footer = () => {
             <li>
               <NavLink href="/tours-by-experience">
                 <BsCaretRight />
-                Ethiopia Tours By Experiences
+                Ethiopia Itineraries by Experience
               </NavLink>
             </li>
             <li>

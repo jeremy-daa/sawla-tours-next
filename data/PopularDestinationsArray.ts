@@ -53,7 +53,7 @@ export const PopularDestinationsArray: Destination[] = [
       {
         img1: images.lalibela2,
         img2: images.lalibela3,
-        title: "Why Lalibela?",
+        title: "A soul-stirring journey",
         subtitle: "A Journey to Ethiopia's Spiritual Heart",
         description: [
           "Lalibela and its surrounding highlands hold a profound significance in Ethiopian Christianity. Immerse yourself in the spiritual tapestry of this sacred land and let Sawla Tours guide you on a journey that will leave an indelible mark on your soul.",
@@ -137,7 +137,7 @@ export const PopularDestinationsArray: Destination[] = [
         img1: images.simien3,
         img2: images.simien6,
         title: "A Natural Paradise Awaits",
-        subtitle: "A Journey to Ethiopia's Spiritual Heart",
+        subtitle: "Trek, thrill and transform",
         description: [
           "Prepare for an unforgettable adventure in the Simien Mountains, where pristine landscapes, exhilarating treks, and rare wildlife encounters await. Begin planning your journey with Sawla Tours and embark on a transformative experience amidst the breathtaking wonders of Ethiopia's most captivating mountain range. Visit our website today to embark on your Simien Mountains adventure.",
         ],
@@ -211,12 +211,12 @@ export const PopularDestinationsArray: Destination[] = [
         link: "#why",
       },
       {
-        img1: images.simien3,
-        img2: images.simien6,
-        title: "A Natural Paradise Awaits",
+        img1: images.danakil4,
+        img2: images.danakil8,
+        title: "Dazzling Danakil",
         subtitle: "",
         description: [
-          "Prepare for an unforgettable adventure in the Simien Mountains, where pristine landscapes, exhilarating treks, and rare wildlife encounters await. Begin planning your journey with Sawla Tours and embark on a transformative experience amidst the breathtaking wonders of Ethiopia's most captivating mountain range. Visit our website today to embark on your Simien Mountains adventure.",
+          "Prepare for a transformative experience that will challenge your perceptions and leave an indelible mark on your soul. The Danakil Depression promises an unforgettable journey filled with rare encounters, astonishing landscapes, and the realization that the world we inhabit is far more diverse and enigmatic than we could have ever imagined. Don't miss the chance to embark on your Danakil Depression adventure with Sawla Tours.",
         ],
         lr: false,
         button: "Start Planning",
@@ -536,7 +536,7 @@ export const PopularDestinationsArray: Destination[] = [
           description: [
             "Experience the awe-inspiring beauty of the Blue Nile Falls, locally known as Tis Abay or the 'great smoke.' Located just 35 kilometers from Bahir Dar, these falls cascade down a height of 45 meters, ranking as the 9th tallest waterfall in Africa. Witness the roaring waters and the magnificent rainbows that grace the gorge, creating a truly mesmerizing spectacle.",
           ],
-          image: images.bahirdar4,
+          image: images.abay2,
         },
         {
           title: "Accommodations in Bahir Dar",
@@ -609,7 +609,7 @@ export const PopularDestinationsArray: Destination[] = [
           description: [
             "Immerse yourself in the history of Fasilides' Bath, a historic building that retains its function to this day. Marvel at the pool, which comes to life during the annual Timkat celebrations in Gonder. Admire the surrounding stone walls intertwined with the roots of towering trees, creating a picturesque setting. Timkat commemorates the baptism of Jesus Christ, making this celebration an unforgettable experience.",
           ],
-          image: images.gonder5,
+          image: images.gonder6,
         },
         {
           title: "Delve into the Splendor of Debre Birhan Selassie Church",
@@ -618,7 +618,7 @@ export const PopularDestinationsArray: Destination[] = [
             "Gonder beckons with its regal heritage and architectural marvels, promising an unforgettable exploration of Ethiopia's captivating history.",
             "Contact us and begin your journey to the Camelot of Africa today. Experience the allure of Gonder, where tales of emperors and the echoes of the past resonate in every corner",
           ],
-          image: images.gonder6,
+          image: images.gonder5,
         },
       ],
     },
@@ -770,11 +770,11 @@ export const PopularDestinationsArray: Destination[] = [
           image: images.awash2,
         },
         {
-          title: "Unwind in New Lodges",
+          title: "Unwind in New Resorts",
           description: [
-            "Enhance your journey at Chebera Churchura National Park by staying in the newly established lodges. Halala Kela Lodge, located within the park, offers comfortable accommodations amidst the wilderness, allowing you to fully immerse yourself in nature. Indulge in the serenity of the surroundings and rejuvenate after a day of adventure.",
+            "Enhance your journey at Chebera Churchura National Park by staying in the newly established lodges. Halala Kela Resort, located within the park, offers comfortable accommodations amidst the wilderness, allowing you to fully immerse yourself in nature. Indulge in the serenity of the surroundings and rejuvenate after a day of adventure.",
           ],
-          image: images.gonder5,
+          image: images.chebera2,
         },
       ],
     },
@@ -782,7 +782,8 @@ export const PopularDestinationsArray: Destination[] = [
   {
     id: 10,
     title: "Axum",
-    description: "",
+    description:
+      "The legendary home of the Queen of Sheba and the Ark of the Covenant",
     image: images.axum11,
     link: "#description",
     linkname: "Read More",
@@ -821,7 +822,6 @@ export const PopularDestinationsArray: Destination[] = [
           title: "Axum, a Cultural Gem",
           description: [
             "Nestled in the heart of Ethiopia, Axum holds a unique place in the country's rich heritage. As you venture through this town, you'll find yourself immersed in a world where fact and legend intertwine seamlessly.",
-            "Local guides will regale you with captivating stories, adding an element of intrigue to your journey.",
           ],
           image: images.axum2,
         },
@@ -876,7 +876,8 @@ export const PopularDestinationsArray: Destination[] = [
   {
     id: 11,
     title: "Harar",
-    description: "",
+    description:
+      "Where History, Culture, and Spirituality Unite in Ancient Splendor.",
     image: images.harar1,
     link: "#description",
     linkname: "Read More",
@@ -952,7 +953,7 @@ export const PopularDestinationsArray: Destination[] = [
   {
     id: 12,
     title: "Gambella National Park",
-    description: "",
+    description: "An untouched gem teeming with nature's grandeur",
     image: images.gambella3,
     link: "#description",
     linkname: "Read More",
@@ -1015,13 +1016,13 @@ export const PopularDestinationsArray: Destination[] = [
     id: 13,
     title: "Kafta Shiraro National Park",
     description: "",
-    image: images.kafta1,
+    image: images.kafta2,
     link: "#description",
     linkname: "Read More",
     index: false,
     intro: [
       {
-        img1: images.simien6,
+        img1: images.kafta4,
         img2: images.kafta1,
         title: "Marvel at Africa's Wild Northern Frontier",
         subtitle: "",
@@ -1035,8 +1036,8 @@ export const PopularDestinationsArray: Destination[] = [
         link: "",
       },
       {
-        img1: images.kafta1,
-        img2: images.tigray7,
+        img1: images.kafta2,
+        img2: images.kafta3,
         title: "Discover the Magic of Kafta Shiraro",
         subtitle: "",
         description: [
@@ -1118,7 +1119,7 @@ export const PopularDestinationsArray: Destination[] = [
           'The national language, Amharic, is widely spoken, but English, French, Italian, and Arabic are also common in the city. With a multitude of ethnic groups and a diverse foreign population, Addis Ababa truly represents the "rich cultural mosaic" of Ethiopia, as historian Carlo Conti Rossini once put it.',
         ],
         lr: true,
-        button: "Why Awash National Park & Alledeghi Plains?",
+        button: "Why Addis Ababa?",
         link: "#why",
       },
     ],
@@ -1138,6 +1139,24 @@ export const PopularDestinationsArray: Destination[] = [
             "Visit the stunning St. Mary Church of Entoto, located at an elevation of 3,200m. Take a scenic drive up the hill to reach the church, which hosted Menelik's coronation. Nearby, you'll find Menelik's modest palace and stunning views of the city.",
           ],
           image: images.addis2,
+        },
+        {
+          title:
+            "Beata Maryam Church: Embrace the Echoes of History, Experience the Majesty of Faith.",
+          description: [
+            "Nestled in the heart of Addis Ababa stands Beata Maryam Church, a timeless tribute to Ethiopia's rich and regal heritage. Built-in 1911 by Empress Zewditu, this awe-inspiring structure captures the essence of Ethiopian architecture and resonates with the nation's soul. A mere glimpse of its four Axumite-style colonnaded arches that grace each exterior wall, and the intricately carved lions guarding the entrance, will transport you to a realm of profound beauty. Inside, your eyes will be drawn to a series of mesmerizing murals, each a vivid canvas of important events in Ethiopian history.",
+            "These artworks tell stories of faith, royalty, struggle, and triumph, each intricately woven into the very fabric of the nation's identity. The grandeur extends into the mysterious subterranean realm, where a dimly lit staircase leads to the hauntingly beautiful Menelik II Mausoleum. Here, etched in carved marble, rests the tomb of Addis Ababa's founder, Menelik II, flanked by his beloved family and eminent figures.",
+            "Beata Maryam Church is not just a monument but an enduring symbol of Ethiopian culture and faith. Whether a pilgrim seeking spiritual solace or a traveler thirsting for historical knowledge, this magnificent edifice invites you to explore, discover, and connect with a legacy that transcends time and space. Come, walk the hallowed halls of Beata Maryam Church, where history lives, and legends breathe.",
+          ],
+          image: images.beata1,
+        },
+        {
+          title: "Kidus Raguel-: Where History Whispers and Beauty Resonates",
+          description: [
+            "Nestled just a short distance west of Entoto Maryam, the historical Kidus Raguel Church stands as a timeless sentinel of Ethiopia's rich past. Founded by Menelik II in the 1880s, it is considered the oldest extant church in the immediate vicinity of Addis Ababa. With its handsome whitewashed octagonal structure adorned by a domed roof and a charming wooden balcony, Kidus Raguel is a masterful blend of tradition and artistry. Step inside, and the atmospheric interior will captivate you with its elaborate and well-preserved paintings dating back to the late 19th century. Near the main building, the remnants of the original Kidus Raguel whisper tales from the 12th or 13th century, its rock-hewn structure partially destroyed but holding a solemn grace.",
+            "Just 200 meters away from Kidus Raguel, another historical marvel awaits you: the impressive remains of a lha pentagonal fort. Standing strong with a 520-meter stone perimeter wall reaching up to 5 meters high in parts, this majestic ruin once boasted a dozen towers. Thought to date back to around 1515, the fort's enigmatic design and significant stature stir intrigue and speculation. Some believe it may have been a part of the mysterious medieval city of Barara. Even if not, its commanding presence among recently rediscovered ruins serves as compelling evidence of Entoto's importance as an imperial power center in medieval times. The fort silently invites you to explore its history, unravel its mysteries, and connect with a past that shaped the nation. ",
+          ],
+          image: images.raguel1,
         },
         {
           title: "Indulge in Coffee",

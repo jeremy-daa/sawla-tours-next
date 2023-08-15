@@ -42,10 +42,10 @@ export const ExperiencesPackagesArray: ExperiencePackage[] = [
     index: false,
     intro: [
       {
-        title: "The Extraordinary journey through Ethiopia's Historic Sites",
+        title: "Your Gateway to Historic and Cultural Adventures! ",
         description: [
-          "Embark on an extraordinary journey through Ethiopia's Historic Tours, where ancient wonders and vibrant cultures intertwine harmoniously. Discover the storied treasures that define Ethiopia's identity, from the rock-hewn churches of Tigray to the awe-inspiring city of Axum.",
-          "Traverse the famed Historic Route, immersing yourself in architectural marvels and breathtaking landscapes, while uncovering hidden gems that captivate the intrepid explorer. Ethiopia's Historic and Cultural Tours offer an unforgettable odyssey, celebrating a rich history and diverse cultures untouched by colonialism.",
+          "We are delighted to present some of our most popular and suggested itineraries in the historic and cultural tour experience category. These carefully crafted journeys promise to take you on a transformative adventure through the rich heritage of Ethiopia. But that's not all - our dedicated and experienced team is at your service to make these itineraries truly your own. Whether it's tweaking a tour to fit your travel preferences, duration, or style, or combining different experiences to create a bespoke adventure, we've got you covered. Our goal is to curate personalized travel experiences that match your unique interests and expectations. So take a moment to explore these enticing itineraries, and let us know how we can tailor-make them to perfection, just for you. ",
+          "Go ahead and delve into the historic and cultural wonders of Ethiopia - we're here to turn your dreams into unforgettable memories. Feel free to reach out to us, and let's embark on a journey that will leave you with cherished moments and a deeper appreciation for the beauty of Ethiopia's history and culture. We can't wait to transform your adventure!",
         ],
         lr: true,
         img1: images.axum1,
@@ -125,10 +125,10 @@ export const ExperiencesPackagesArray: ExperiencePackage[] = [
     index: false,
     intro: [
       {
-        title: "A Journey through Ethiopia's Tribal Areas",
+        title: "Where adventure meets culture in the most enchanting way. ",
         description: [
-          "Embark on a journey of discovery with Ethiopia's Tribal, where visitors can experience the unique traditions and lifestyles of the different ethnic groups situated along the Omo River in the South. The tribes, including the Arbore, Nyangatom, Dasenech, Karo, Hamer, and Mursi, have lived on the lands for centuries, with their first contact with the modern world only occurring within the last two to three decades.",
-          "Visitors can witness the beauty, nature, discipline, tranquility, and centuries-old traditions that define these tribes, while also enjoying the marvelous scenery, wildlife, and birdlife that make this region a must-see destination.",
+          "We are thrilled to present some of our most popular and suggested itineraries, crafted with passion and expertise. Take a moment to explore these captivating journeys, and rest assured that our dedicated team is at your service to transform your adventure into a truly unforgettable experience",
+          " Whether you prefer a tailor-made trip or a completely personalized one, we will ensure your travel preference, time, and style are perfectly catered to. Let's embark on this extraordinary journey together, creating cherished memories that reflect your unique interests and expectations.",
         ],
         lr: true,
         img1: images.hamer1,
@@ -200,10 +200,11 @@ export const ExperiencesPackagesArray: ExperiencePackage[] = [
     index: false,
     intro: [
       {
-        title: "The Vibrant World of Ethiopian Festivals",
+        title:
+          "Immerse yourself in the vibrant and thrilling world of Ethiopian festivals",
         description: [
-          "Immerse yourself in the vibrant and thrilling world of Ethiopian festivals! From the awe-inspiring ancient religious celebrations like Genna (Ethiopian Christmas) and Timket (Ethiopian Epiphany) in January, Fasika (Ethiopian Easter) in April, Meskel (the finding of the true cross) in September, to the special feast days of individual churches, every moment is bursting with color, music, and tradition.",
-          "But that's not all! Join over 100,000 pilgrims in the most famous pilgrimage sites like Hidar Tsion in Axum and Kulubi Gabriel near Dire Dawa, and experience the powerful spiritual energy that resonates throughout.",
+          "We are thrilled to present you with our captivating Festival tour itineraries. These handpicked experiences promise to immerse you in the rich tapestry of cultural festivities and celebrations. Each itinerary can be tailored to your preferences, ensuring your adventure is nothing short of extraordinary.",
+          "Our dedicated and experienced team is at your service, ready to create personalized travel experiences that perfectly match your interests and expectations. Feel free to explore these suggested itineraries, and together, let's craft a journey that will leave you with unforgettable memories.",
         ],
         lr: true,
         img1: images.lalibela3,
@@ -275,10 +276,10 @@ export const ExperiencesPackagesArray: ExperiencePackage[] = [
     index: false,
     intro: [
       {
-        title: "A Journey through Ethiopia's Natural Wonders",
+        title: "Adrenaline-packed journeys",
         description: [
-          "These offer a thrilling experience for those seeking an adrenaline-packed vacation. The tours include trekking through stunning landscapes, such as the Simien and Bale Mountains, where you will encounter unique flora and fauna, including the iconic Gelada baboons and the elusive Ethiopian wolf. For rock climbers, experienced guides will help navigate the challenging terrain, ensuring safety at all times.",
-          "Paragliding tours offer a chance to soar above Ethiopia's stunning landscapes, while white water rafting tours provide a wild ride through thrilling rapids. Hot air ballooning tours offer a tranquil journey through Ethiopia's skies, providing breathtaking views of the country's majestic landscapes. Throughout your journey, our experienced guides will ensure your safety and comfort. Come explore the wild side of Ethiopia and discover the adventure of a lifetime!",
+          "Welcome to our thrilling Adventures tour experience category. We are delighted to share some of our most sought-after and recommended itineraries with you. Our dedicated and experienced team is eager to transform your adventure dreams into reality.",
+          "Whether you choose one of our pre-designed itineraries or wish to personalize your journey, we are here to craft a tailor-made experience that perfectly aligns with your preferences and style. Feel free to explore the possibilities and let us create unforgettable moments together. Your adventure awaits!",
         ],
         lr: true,
         img1: images.lalibela5,
@@ -352,8 +353,8 @@ export const ExperiencesPackagesArray: ExperiencePackage[] = [
       {
         title: "A Nirvana for Photography Buffs",
         description: [
-          "Photography tour in Ethiopia, a paradise for photographers. Capture stunning images of the fine church architecture of Lalibela, the breathtaking landscapes of the Ethiopian Highlands, vibrant festivals, bustling local markets, the unique lifestyles of the Omo Valley tribes, and the colorful birdlife of Ethiopia.",
-          "The opportunities for capturing stunning photographs in Ethiopia are endless, and we at Sawla Tours are dedicated to providing exceptional tour itineraries that cater specifically to the needs of photographers.",
+          "We are thrilled to share our handpicked and popular itineraries with you, designed to capture the essence and beauty of this extraordinary land. Our dedicated and experienced team is at your service, ready to curate itineraries that will transform your adventure into a visual masterpiece.",
+          "Whether you prefer one of our suggested tours or seek a personalized journey, we are here to tailor-make an experience that perfectly aligns with your travel preferences and style. Let us join you on this photographic odyssey, creating unforgettable moments and memories together.",
         ],
         lr: true,
         img1: images.bale1,
@@ -443,10 +444,10 @@ export const ExperiencesPackagesArray: ExperiencePackage[] = [
     index: false,
     intro: [
       {
-        title: "A Haven for Bird Enthusiasts",
+        title: "An unforgettable encounter with Ethiopia's feathery gems.",
         description: [
-          "More than 800 bird species are found in Ethiopia, of which sixteen are endemic. A further fourteen species are shared with Eritrea, which was part of Ethiopia until 1991. Ethiopia's diverse habitats, highlands, lowlands, forests, lakes, wetlands, and river systems also provide sites for wintering or passage birds.",
-          "More than 800 bird species are found in Ethiopia, of which sixteen are endemic. A further fourteen species are shared with Eritrea, which was part of Ethiopia until 1991. Ethiopia's diverse habitats, highlands, lowlands, forests, lakes, wetlands, and river systems also provide sites for wintering or passage birds.",
+          "Allow us to guide you on a breathtaking journey through Ethiopia's captivating birdwatching tour experience. Below, you'll find some of our handpicked and beloved itineraries, each one a gateway to nature's symphony. Your travel preferences, time, and style are our muse, inspiring us to create adventures that sing to your soul.",
+          "Whether selecting a pre-designed path or yearning for a bespoke creation, our dedicated and experienced team stands ready to craft an itinerary that will transform your adventure. Together, we'll tailor-make a journey, perfectly pitched to your unique interests and expectations, harmonizing your wanderlust with Ethiopia's vibrant avian wonders.",
         ],
         lr: true,
         img1: images.bird3,
@@ -517,10 +518,10 @@ export const ExperiencesPackagesArray: ExperiencePackage[] = [
     index: false,
     intro: [
       {
-        title: "A Tapestry of Diverse Landscapes",
+        title: "The wild wonders of Ethiopia beckon",
         description: [
-          "Ethiopia is a country with diverse landscapes and abundant wildlife. If you are a wildlife enthusiast, you are in for a treat. Ethiopia offers some of the best wildlife tours in Africa, with its stunning national parks, game reserves, and sanctuaries that provide visitors with an opportunity to see a wide range of animals in their natural habitat.",
-          "For an exciting big game drive, head to the Bale Mountain and Omo parks in the Southeast and South or Gambella in the West. While big game sightings are not guaranteed, the thrill of tracking wildlife by following trails and droppings can be an unforgettable experience. In the Awash Park, located in the eastern part of the country, you can spot various animals such as the Greater and Lesser Kudu, Beisa Oryx, Gerenuk, and Dikdik, and if you're lucky, leopards and lions. The nearby Halledeghi Reserve is also worth a visit for a chance to see herds of plains animals and rare sightings of the Abyssinian Wild Ass.",
+          "We are here to guide you on a journey like no other. We present to you our selected and sought-after Wildlife tour itineraries, each a window to the untamed heart of our beautiful land. Your desires, schedule, and personal flair are our guiding lights, leading us to sculpt the perfect adventure for you.",
+          "Whether embracing one of our existing offerings or forging a new path entirely, our dedicated and seasoned team awaits, eager to craft an itinerary that will make your Ethiopian Wildlife tour an unforgettable tapestry of discovery, uniquely woven with your tastes and dreams.",
         ],
         lr: true,
         img1: images.bale2,

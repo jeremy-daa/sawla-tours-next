@@ -9,11 +9,12 @@ interface Props {
   lr?: boolean;
   link?: string;
   subtitle?: string;
+  color?: boolean;
 }
 
 const Intro = (props: Props) => {
   return (
-    <section id="about" className="home-intro">
+    <section id="about" className={"home-intro"}>
       {props.lr ? (
         <div className="intro-container">
           <div className="intro-text" data-aos="fade-left">
@@ -38,36 +39,60 @@ const Intro = (props: Props) => {
             <Image
               src={props.img1}
               alt="Intro image"
-              width={500}
-              height={500}
+              width={400}
+              height={400}
             />
             <Image
               src={props.img2}
               alt="Intro image"
-              width={1000}
-              height={1000}
+              width={400}
+              height={400}
             />
           </div>
         </div>
       ) : (
-        <div className="intro-container">
+        <div
+          className={props.color ? "intro-container color" : "intro-container"}
+        >
           <div className="intro-img" data-aos="fade-left">
             <Image
               src={props.img1}
               alt="Intro image"
-              width={1000}
-              height={1000}
+              width={400}
+              height={400}
             />
             <Image
               src={props.img2}
               alt="Intro image"
-              width={1000}
-              height={1000}
+              width={400}
+              height={400}
             />
           </div>
           <div className="intro-text" data-aos="fade-right">
-            <h2 className="intro-heading">{props.title}</h2>
-            <h2 className="intro-subheading">{props.subtitle}</h2>
+            <h2
+              className="intro-heading"
+              style={
+                props.color
+                  ? {
+                      color: "var(--light)",
+                    }
+                  : {}
+              }
+            >
+              {props.title}
+            </h2>
+            <h2
+              className="intro-subheading"
+              style={
+                props.color
+                  ? {
+                      color: "var(--light)",
+                    }
+                  : {}
+              }
+            >
+              {props.subtitle}
+            </h2>
             {props.description &&
               props.description.map((description, index) => (
                 <p className="intro-description" key={index}>
@@ -76,7 +101,17 @@ const Intro = (props: Props) => {
               ))}
 
             {props.button && (
-              <a className="offset" href={props.link}>
+              <a
+                className="offset"
+                href={props.link}
+                style={
+                  props.color
+                    ? {
+                        color: "var(--light)",
+                      }
+                    : {}
+                }
+              >
                 {props.button}
               </a>
             )}

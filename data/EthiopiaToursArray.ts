@@ -54,7 +54,7 @@ export const EthiopiaToursArray: Tour[] = [
     experience: 1,
     title: "Historic Ethiopia Tours",
     description:
-      "The Historic Tour is a journey through Ethiopia's rich and fascinating history. The tour includes visits to the ancient capital of Axum, the Blue Nile Falls, the castles of Gondar, the rock-hewn churches of Lalibela, and the walled city of Harar.",
+      "Embark on an extraordinary journey through Ethiopia's Historic tours, where ancient wonders and vibrant cultures intertwine harmoniously. These offer an unforgettable odyssey, celebrating a rich history and diverse cultures.",
     image: Images.gonder4,
     link: "/enquire",
     linkname: "Start Planning",
@@ -63,8 +63,9 @@ export const EthiopiaToursArray: Tour[] = [
       {
         title: "The Extraordinary journey through Ethiopia's Historic Sites",
         description: [
-          "Embark on an extraordinary journey through Ethiopia's Historic Tours, where ancient wonders and vibrant cultures intertwine harmoniously. Discover the storied treasures that define Ethiopia's identity, from the rock-hewn churches of Tigray to the awe-inspiring city of Axum.",
-          "Traverse the famed Historic Route, immersing yourself in architectural marvels and breathtaking landscapes, while uncovering hidden gems that captivate the intrepid explorer. Ethiopia's Historic and Cultural Tours offer an unforgettable odyssey, celebrating a rich history and diverse cultures untouched by colonialism.",
+          "Ethiopia's Historic and Cultural Tours offer a unique opportunity to discover the country's rich history and diverse cultures. Unlike other African nations, Ethiopia's identity is deeply rooted in its independence, with a history that stretches back thousands of years.",
+          "From the ancient secret of Axum to the awe-inspiring city of Bahir Dar and from the rock churches of Tigray and Lalibela to the stelae fields at Tiya, Ethiopia's Historic Route through the North is a must-see destination for any history enthusiast.",
+          "The Historic Route is easily accessible by road or a combination of road and air travel. The best-known historic sites include Axum, Lalibela, Gondar, and Bahir Dar, and to make the most out of your trip, it is recommended to spend at least two days in each destination. The Historic Route is a living testimony to Ethiopia's rich cultural heritage, showcasing the country's architectural wonders and the breathtaking beauty of its natural landscapes.",
         ],
         lr: true,
         img1: Images.axum1,
@@ -73,7 +74,7 @@ export const EthiopiaToursArray: Tour[] = [
         link: "/enquire",
       },
       {
-        title: "What to Expect on the Historic Tour",
+        title: "What more can you visit?",
         description: [
           "Ethiopia's Historic and Cultural Tours offer a unique opportunity to discover the country's rich history and diverse cultures. Unlike other African nations, Ethiopia's identity is deeply rooted in its independence, with a history that stretches back thousands of years. From the ancient city of Axum to the rock-hewn churches of Tigray and Lalibela and the stelae fields at Tiya, Ethiopia's Historic Route through the North is a must-see destination for any history enthusiast.",
           "The Historic Route is easily accessible by road or a combination of road and air travel. The best-known historic sites include Axum, Lalibela, Gondar, and Bahir Dar, and to make the most out of your trip, it is recommended to spend at least two days in each destination. The Historic Route is a living testimony to Ethiopia's rich cultural heritage, showcasing the country's architectural wonders and the breathtaking beauty of its natural landscapes.",
@@ -279,7 +280,7 @@ export const EthiopiaToursArray: Tour[] = [
     id: 3,
     experience: 3,
 
-    title: "Festivals and Special Events",
+    title: "Festivals & Special Events",
     description:
       "Experience the vibrant world of Ethiopian festivals, where ancient traditions come alive through colorful celebrations and powerful spiritual energy. Immerse yourself in the heart and soul of Ethiopian culture, creating unforgettable moments that will stay with you forever.",
     image: Images.gonder2,
@@ -479,7 +480,8 @@ export const EthiopiaToursArray: Tour[] = [
     id: 5,
     experience: 5,
     title: "Photography Tours in Ethiopia",
-    description: "",
+    description:
+      "Simply put, Ethiopia will be, without a doubt, a nirvana for photography buffs.",
     image: Images.lalibela5,
     link: "/enquire",
     linkname: "Start Planning",
@@ -487,6 +489,8 @@ export const EthiopiaToursArray: Tour[] = [
     intro: [
       {
         title: "A Nirvana for Photography Buffs",
+        subtitle:
+          "Simply put, Ethiopia will be, without a doubt, a nirvana for photography buffs.",
         description: [
           "Photography tour in Ethiopia, a paradise for photographers. Capture stunning images of the fine church architecture of Lalibela, the breathtaking landscapes of the Ethiopian Highlands, vibrant festivals, bustling local markets, the unique lifestyles of the Omo Valley tribes, and the colorful birdlife of Ethiopia.",
           "The opportunities for capturing stunning photographs in Ethiopia are endless, and we at Sawla Tours are dedicated to providing exceptional tour itineraries that cater specifically to the needs of photographers.",
@@ -506,8 +510,8 @@ export const EthiopiaToursArray: Tour[] = [
         lr: false,
         img1: Images.simien3,
         img2: Images.danakil3,
-        button: "Start Planning",
-        link: "/enquire",
+        button: "Explore Itineraries",
+        link: "/tours-by-experience/5",
       },
     ],
   },
@@ -523,10 +527,10 @@ export const EthiopiaToursArray: Tour[] = [
     index: false,
     intro: [
       {
-        title: "A Haven for Bird Enthusiasts",
+        title: "Embark on an Avian Adventure in Enchanting Ethiopia!",
         description: [
-          "More than 800 bird species are found in Ethiopia, of which sixteen are endemic. A further fourteen species are shared with Eritrea, which was part of Ethiopia until 1991. Ethiopia's diverse habitats, highlands, lowlands, forests, lakes, wetlands, and river systems also provide sites for wintering or passage birds.",
-          "More than 800 bird species are found in Ethiopia, of which sixteen are endemic. A further fourteen species are shared with Eritrea, which was part of Ethiopia until 1991. Ethiopia's diverse habitats, highlands, lowlands, forests, lakes, wetlands, and river systems also provide sites for wintering or passage birds.",
+          "Calling all passionate birdwatchers! Ethiopia boasts a haven for over 881 captivating bird species, with 21 found nowhere else on Earth. It's a birdwatcher's paradise with diverse habitats - from highlands to lowlands, forests to wetlands, and picturesque lakes, making it an ideal wintering and passage destination.",
+          "Picture yourself amidst the beauty of Ethiopia's southern wonders, seeking out the rarest endemics in places like Debre Libanos, the Jemma River valley, and Bale Mountains. Our 3-week itinerary ensures an unforgettable quest to spot these mesmerizing species. But fear not! If time is short, our 10-day tours guarantee an exhilarating journey, covering Awash National Park, Rift Valley Lakes, and the majestic Bale Mountains.",
         ],
         lr: true,
         img1: Images.gambella1,
@@ -535,10 +539,10 @@ export const EthiopiaToursArray: Tour[] = [
         link: "/enquire",
       },
       {
-        title: "Some tips for Birdwatching in Ethiopia",
+        title: "Ethiopia's feathery gems.",
         description: [
-          "To make the most of your bird-watching trip, you should allocate a minimum of three weeks. However, shorter tours of about ten days can still guarantee seeing most of the endemics and several hundred other species.",
-          "Sawla can mix bird watching with other itineraries, such as the Historic Route or the Simien Mountains, and can also organize short birding extensions as part of a longer trip or for people passing through Addis Ababa with a few days to spare. If you give us sufficient notice on both long and short trips, you will be accompanied by a trained ornithologist.",
+          "At Sawla Tours, we're masters at tailoring itineraries to suit your unique interests, blending birdwatching with cultural highlights like the Historic Route or your preferred destination.",
+          "Short on time? We've got you covered! Join our birding extensions for a quick, unforgettable encounter with Ethiopia's feathery gems.",
         ],
         lr: false,
         img1: Images.bird3,
@@ -572,24 +576,30 @@ export const EthiopiaToursArray: Tour[] = [
         link: "/enquire",
       },
       {
-        title: "The Wonders of Ethiopia's Tribal Areas",
+        title: "Home to various endemic animals",
         description: [
-          "To fully experience the wonders of the Omo Valley, at least eight days should be allowed, with the east bank offering lodges for accommodation while the west bank requires camping. We can provide all the necessary gear for a comfortable camping experience. ",
-          "In the far west in Gambella, along the Baro River, visitors can discover the Anuak, Nuer, and Mizingir people, accessible by air or a two-day road trip. Ethiopia's Tribal Tours offer a unique and unforgettable journey through the customs and traditions of these remarkable ethnic groups, providing a rare insight into their pre-materialist cultures and anthropology.",
+          "The Bale Mountains National Park is home to various endemic animals, including the Mountain Nyala, Ethiopian Wolf, and Menelik’s Bushbuck. The adjacent Harenna Forest is also worth exploring for a chance to see wild dogs, lions, and the Bale Monkey. In the Simien Mountains National Park, you can witness the remarkable increase in the population of the iconic Walia Ibex, and sightings are almost guaranteed.",
+          "On wildlife tours in Ethiopia, you can easily spot Swaynes Hartebeest and other plains animals in the Senkele Sanctuary near Awassa. Nech Sar Park, located in the southwest, is a beautiful park that straddles two lakes and offers visitors an opportunity to see a variety of birdlife and wildlife.",
         ],
         lr: false,
-        img1: Images.intro3,
-        img2: Images.hamer2,
+        img1: Images.bale2,
+        img2: Images.simien3,
+        button: "Start Planning",
+        link: "/enquire",
+      },
+      {
+        title: "Unique and unforgettable wildlife ",
+        description: [
+          "If you're interested in seeing elephants, head to Babile Elephant Sanctuary, located 40 km east of Harar. In Kafta Sheraro Park, a newly protected area in the Tigray Region, elephants and other wild animals are making a triumphant comeback after being a war zone for decades. Chebera Churchura and Maze National Park, located in the southwest, are also gaining popularity for being home to a great number of wildlife, including buffalo and elephants.",
+          "With its diverse landscapes and abundant wildlife, Ethiopia offers a unique and unforgettable wildlife tour experience that you won't find anywhere else.",
+        ],
+        lr: false,
+        img1: Images.simien5,
+        img2: Images.kafta3,
         button: "Start Planning",
         link: "/enquire",
       },
     ],
-    map: {
-      title: "Wildlife Tours Destinations",
-      description:
-        "Some of the destinations included in the Wildlife Tours are: Bale Mountains National Park, Omo National Park, Gambella National Park, Awash National Park, and many more...",
-      image: "/assets/maps/TribalTours.jpg",
-    },
     tourdescription: {
       title: "A Rough Summary of the Itinerary",
       description: [
@@ -822,7 +832,7 @@ export const EthiopiaToursArray: Tour[] = [
         link: "/enquire",
       },
       {
-        title: "",
+        title: "Around-the-clock support",
         description: [
           "Our production services are equally comprehensive, and we can assemble a team of experienced professionals who can help with everything from obtaining filming permits from the Ethiopian Government to arranging the importation of equipment. We can also provide location scouting, security, and field support, as well as outfitting and camps for locations. Furthermore, we can suggest and assist with location identification and negotiations, and we can even set up aerial filming from a variety of aircraft.",
           "At Sawla Tours, we pride ourselves on our professionalism, confidentiality, and flexible approach. We understand that every project is unique, and we work closely with our clients to ensure that their needs are met. Our around-the-clock support means that you can contact us at any time, and we'll be on hand to assist with any issues that may arise. If you're looking for a reliable and experienced partner to help with your filming needs in Ethiopia, look no further than Sawla Tours.",

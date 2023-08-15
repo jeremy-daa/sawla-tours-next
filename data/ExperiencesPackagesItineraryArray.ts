@@ -28,6 +28,7 @@ export interface Itinerary {
   }[];
   itinerarydescription?: {
     title: string;
+    description?: string[];
     itineraries: {
       title: string;
       description: string[];
@@ -7254,7 +7255,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
             "Today you will explore this remote and seldom-visited park and surrounding area. It is situated in the Sahelian zone and thus offers an interesting selection of dry country species. The habitat consists of dry acacia bush veiled in a slightly hilly area and follows the tranquil Tekezze River. You will concentrate your efforts on finding the beautiful Demoiselle Crane which makes a stopover here on its migration from Sudan to India. Up to 3,800 cranes have been seen in this area and the site and sound of them bugling at dusk is a spectacle indeed!",
             "Other key targets include a Sudan/Ethiopia endemic; White-headed Babbler, the amazing Egyptian Plover (a monotypic family), the impressive Sahel Paradise Whydah, and Sudan Golden Sparrow. Other species of interest that are not generally seen on a standard Ethiopian tour include Vieillot's Barbet, Black-billed Wood Dove, Rose-ringed Parakeet, Green Bee-eater, Red-pate Cisticola, Black-headed Gonolek, Northern Grey-headed Sparrow, Black-rumped Waxbill, Chestnut-bellied Starling, Yellow-billed Oxpecker, White-rumped Seedeater, and Golden-breasted Bunting. If we are fortunate we may find a roosting Long-tailed Nightjar. Other more widespread species we may see include Black Stork, Short-toed Snake Eagle, Booted Eagle, Senegal Thick-knee, Black-headed Lapwing, Lichtenstein's and Four-banded Sandgrouse, European Turtle Dove, Abyssinian Roller, Northern Carmine Bee-eater, Black-billed Wood Hoopoe, Black Scimitarbill, Yellow-breasted Barbet, Masked Shrike, Black and Rufous-tailed Scrub Robin, Black-eared Wheatear, and Crimson-rumped Waxbill. Overnight in Humera.",
           ],
-          image: images.kafta1,
+          image: images.kafta2,
         },
         {
           title: "DAY 22: HUMERA TO ADDIS ABABA AND DEPARTURE",
