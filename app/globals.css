@@ -22,6 +22,19 @@
   text-decoration: none;
   scroll-behavior: smooth;
 }
+/* @import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Averia+Serif+Libre:wght@300&family=Lato:wght@300&display=swap'); */
+@font-face {
+  font-family: "Arizonia";
+  src: url("../public/fonts/Arizonia/Arizonia-Regular.ttf");
+}
+@font-face {
+  font-family: "Averia Serif Libre";
+  src: url("../public/fonts/Averia_Serif_Libre/AveriaSerifLibre-Regular.ttf");
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../public/fonts/Lato/Lato-Light.ttf");
+}
 /* anchor style none */
 a {
   text-decoration: none;
