@@ -74,7 +74,7 @@ export const EthiopiaToursArray: Tour[] = [
         link: "/enquire",
       },
       {
-        title: "What more can you visit?",
+        title: "What to Expect?",
         description: [
           "Ethiopia's Historic and Cultural Tours offer a unique opportunity to discover the country's rich history and diverse cultures. Unlike other African nations, Ethiopia's identity is deeply rooted in its independence, with a history that stretches back thousands of years. From the ancient city of Axum to the rock-hewn churches of Tigray and Lalibela and the stelae fields at Tiya, Ethiopia's Historic Route through the North is a must-see destination for any history enthusiast.",
           "The Historic Route is easily accessible by road or a combination of road and air travel. The best-known historic sites include Axum, Lalibela, Gondar, and Bahir Dar, and to make the most out of your trip, it is recommended to spend at least two days in each destination. The Historic Route is a living testimony to Ethiopia's rich cultural heritage, showcasing the country's architectural wonders and the breathtaking beauty of its natural landscapes.",
@@ -201,7 +201,7 @@ export const EthiopiaToursArray: Tour[] = [
       image: "/assets/maps/TribalTours.jpg",
     },
     tourdescription: {
-      title: "A Rough Summary of the Itinerary",
+      title: "Meeting the tribes & explore their territories.",
       description: [
         "Before reaching the Omo River, visitors can explore the home of the Dorze people in Chencha, renowned for their bamboo bee-hive-shaped houses and colorful weaving skills. Further south are the Konso people, known for their intricately terraced hillsides and wooden totems that adorn their cemeteries.",
         "Along the Omo River, visitors can discover the Surma, who are famous for body painting and women wearing lip plates, and experience the extraordinary rite of passage of the Hamer people called the Bull Jumping ceremony (Ukuli Bula), representing a life-changing event for young men who pass from boyhood into adulthood.",
@@ -319,9 +319,8 @@ export const EthiopiaToursArray: Tour[] = [
       image: "/assets/maps/TribalTours.jpg",
     },
     tourdescription: {
-      title: "A Rough Summary of the Itinerary",
+      title: "Experiencing Spiritual Energy",
       description: [
-        "The itinerary offers an immersive experience into the vibrant world of Ethiopian festivals and special events. Travelers can delve into the heart and soul of Ethiopian culture by participating in ancient religious celebrations like Genna (Ethiopian Christmas), Timket (Ethiopian Epiphany), Fasika (Ethiopian Easter), and Meskel (the finding of the true cross). They can witness the colorful traditions, music, and spirituality that define these festivals. ",
         "Additionally, pilgrims can join the mass gatherings at famous pilgrimage sites like Hidar Tsion in Axum and Kulubi Gabriel near Dire Dawa, experiencing the powerful spiritual energy that permeates the air. For those seeking contemporary urban festivities, Addis Ababa offers the Great Ethiopia Run and the Acacia Jazz Festival, providing an electrifying atmosphere. In the Northern part of Ethiopia, the cultural celebration of Ashenda or Shadey spreads joy throughout Tigray and Northern Amhara regions. The itinerary promises unforgettable moments and a deep immersion into Ethiopian culture through its diverse festivals.",
       ],
       image: Images.lalibela2,
@@ -489,8 +488,7 @@ export const EthiopiaToursArray: Tour[] = [
     intro: [
       {
         title: "A Nirvana for Photography Buffs",
-        subtitle:
-          "Simply put, Ethiopia will be, without a doubt, a nirvana for photography buffs.",
+        subtitle: "",
         description: [
           "Photography tour in Ethiopia, a paradise for photographers. Capture stunning images of the fine church architecture of Lalibela, the breathtaking landscapes of the Ethiopian Highlands, vibrant festivals, bustling local markets, the unique lifestyles of the Omo Valley tribes, and the colorful birdlife of Ethiopia.",
           "The opportunities for capturing stunning photographs in Ethiopia are endless, and we at Sawla Tours are dedicated to providing exceptional tour itineraries that cater specifically to the needs of photographers.",
@@ -570,8 +568,8 @@ export const EthiopiaToursArray: Tour[] = [
           "For an exciting big game drive, head to the Bale Mountain and Omo parks in the Southeast and South or Gambella in the West. While big game sightings are not guaranteed, the thrill of tracking wildlife by following trails and droppings can be an unforgettable experience. In the Awash Park, located in the eastern part of the country, you can spot various animals such as the Greater and Lesser Kudu, Beisa Oryx, Gerenuk, and Dikdik, and if you're lucky, leopards and lions. The nearby Halledeghi Reserve is also worth a visit for a chance to see herds of plains animals and rare sightings of the Abyssinian Wild Ass.",
         ],
         lr: true,
-        img1: Images.simien7,
-        img2: Images.simien1,
+        img1: Images.simien1,
+        img2: Images.simien2,
         button: "Start Planning",
         link: "/enquire",
       },
@@ -582,13 +580,13 @@ export const EthiopiaToursArray: Tour[] = [
           "On wildlife tours in Ethiopia, you can easily spot Swaynes Hartebeest and other plains animals in the Senkele Sanctuary near Awassa. Nech Sar Park, located in the southwest, is a beautiful park that straddles two lakes and offers visitors an opportunity to see a variety of birdlife and wildlife.",
         ],
         lr: false,
-        img1: Images.bale2,
-        img2: Images.simien3,
+        img1: Images.simien3,
+        img2: Images.bale2,
         button: "Start Planning",
         link: "/enquire",
       },
       {
-        title: "Unique and unforgettable wildlife ",
+        title: "Diverse landscapes & abundant wildlife",
         description: [
           "If you're interested in seeing elephants, head to Babile Elephant Sanctuary, located 40 km east of Harar. In Kafta Sheraro Park, a newly protected area in the Tigray Region, elephants and other wild animals are making a triumphant comeback after being a war zone for decades. Chebera Churchura and Maze National Park, located in the southwest, are also gaining popularity for being home to a great number of wildlife, including buffalo and elephants.",
           "With its diverse landscapes and abundant wildlife, Ethiopia offers a unique and unforgettable wildlife tour experience that you won't find anywhere else.",
@@ -601,13 +599,13 @@ export const EthiopiaToursArray: Tour[] = [
       },
     ],
     tourdescription: {
-      title: "A Rough Summary of the Itinerary",
+      title: "Unique & Unforgettable Wildlife",
       description: [
         "This wildlife tour takes you to stunning national parks, game reserves, and sanctuaries across Ethiopia, where you can witness a wide range of animals in their natural habitats. ",
         "Explore the Bale Mountain, Omo, Gambella, and Awash parks for thrilling big game drives and opportunities to spot unique animals like the Ethiopian Wolf, Mountain Nyala, and Walia Ibex. Visit the Halledeghi Reserve for plains animals and the Senkele Sanctuary for Swaynes Hartebeest.",
         "Discover the Babile Elephant Sanctuary and Kafta Sheraro Park for remarkable elephant sightings. Experience Ethiopia's rich wildlife and create unforgettable memories on this exceptional journey.",
       ],
-      image: Images.alehdege1,
+      image: Images.bale1,
     },
     tourdescription2: {
       title: "Places included in the Itinerary",

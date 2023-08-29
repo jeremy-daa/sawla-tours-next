@@ -404,8 +404,8 @@ export const PopularDestinationsArray: Destination[] = [
     index: false,
     intro: [
       {
-        img1: images.omo1,
-        img2: images.intro2,
+        img1: images.tigray3,
+        img2: images.axum3,
         title: "Tigray",
         subtitle: "An Oasis of Culture Cradled in the Heart of History",
         description: [
@@ -459,7 +459,7 @@ export const PopularDestinationsArray: Destination[] = [
           description: [
             "Immerse yourself in the vibrant culture of Tigray by joining in the festivities. Experience Ashenda, a unique celebration that marks the end of the two-week-long Filseta fast. Witness women dressed in traditional attire, singing and playing drums as they take to the streets. Reward their performances with a few birr, and be enchanted by the joyful atmosphere. The festival culminates with all the girls from the village coming together for more singing and dancing, creating memories that will stay with you forever.",
           ],
-          image: images.tigray10,
+          image: images.axum9,
         },
         {
           title: "Community Trekking: Unforgettable Adventures",
@@ -636,7 +636,7 @@ export const PopularDestinationsArray: Destination[] = [
       {
         img1: images.bale4,
         img2: images.bale2,
-        title: "Bal Mountains National Park",
+        title: "Bale Mountains National Park",
         subtitle: "An Eden of Exotic Ecosystems and Endemic Encounters",
         description: [
           "Bale Mountains National Park is one of Ethiopia's most captivating destinations. With its lush jungles, endemic wildlife, breathtaking vistas, boutique lodges, and exhilarating hiking routes, the Bale Mountains offer an unparalleled adventure in the heart of nature.",
@@ -675,7 +675,7 @@ export const PopularDestinationsArray: Destination[] = [
           description: [
             "These mountains are also home to the Oromo people, an agrarian community of 1.5 million people, who rely on these fertile lands for their seasonal grazing cycles. Harmonizing these community needs with wildlife preservation is a delicate balancing act, requiring sensitive stewardship.",
           ],
-          image: images.bale4,
+          image: images.harar2,
         },
         {
           title: "When to Visit and Getting There",
@@ -744,7 +744,7 @@ export const PopularDestinationsArray: Destination[] = [
             "Prepare to be amazed by the wealth of wildlife that thrives within Chebera Churchura National Park. African elephants, hippopotamuses, Cape buffalos, lions, and leopards call this park their home.",
             " It is renowned as Ethiopia's least disturbed and most reliable ecosystem for African elephants and buffalos. Witness these majestic creatures in their natural habitat and be captivated by their presence.",
           ],
-          image: images.bale2,
+          image: images.kafta3,
         },
         {
           title: "A Tapestry of Vegetation",
@@ -986,7 +986,7 @@ export const PopularDestinationsArray: Destination[] = [
       },
     ],
     destinationdescription: {
-      destination: "A Little about Axum",
+      destination: "A Little about Gambella",
       reasons: [
         {
           title: "A Haven of Biodiversity",

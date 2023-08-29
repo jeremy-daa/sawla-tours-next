@@ -69,22 +69,22 @@ const page = ({ params: { id, id2 } }: Params) => {
               ))}
           </div>
           {itinerary.itinerarydescription && (
-            // <ItineraryDescription
-            //   title={itinerary.itinerarydescription.title}
-            //   itineraries={itinerary.itinerarydescription.itineraries}
-            // />
-            <TrekkingDescription
-              title={
-                itinerary.itinerarydescription
-                  ? itinerary.itinerarydescription.title
-                  : ""
-              }
-              itineraries={
-                itinerary.itinerarydescription
-                  ? itinerary.itinerarydescription.itineraries
-                  : []
-              }
+            <ItineraryDescription
+              title={itinerary.itinerarydescription.title}
+              itineraries={itinerary.itinerarydescription.itineraries}
             />
+            // <TrekkingDescription
+            //   title={
+            //     itinerary.itinerarydescription
+            //       ? itinerary.itinerarydescription.title
+            //       : ""
+            //   }
+            //   itineraries={
+            //     itinerary.itinerarydescription
+            //       ? itinerary.itinerarydescription.itineraries
+            //       : []
+            //   }
+            // />
           )}
           <PlannerPolaroid />
           <GenericGrid />

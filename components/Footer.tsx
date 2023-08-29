@@ -31,27 +31,25 @@ const Footer = () => {
               <a href="mailto:sawlayours@gmail.com">Mail Us</a>
             </li>
             <li>
-              <a href="https://goo.gl/maps/6Y5Z9Z7Z7Z7Z7Z7Z7">
-                Addis Ababa, Ethiopia
-              </a>
+              <a href="#">Addis Ababa, Ethiopia</a>
             </li>
           </ul>
 
           <h2 className="contact-us">Office Hours</h2>
           <ul>
             <li>
-              <a href="/">Monday - Friday</a>
+              <a href="#">Monday - Friday</a>
             </li>
             <li>
-              <a href="/">09:00 - 17:30</a>
+              <a href="#">09:00 - 17:30</a>
             </li>
           </ul>
           <ul>
             <li>
-              <a href="/">Saturday</a>
+              <a href="#">Saturday</a>
             </li>
             <li>
-              <a href="/">10:00 - 13:00 </a>
+              <a href="#">10:00 - 13:00 </a>
             </li>
           </ul>
         </div>
@@ -111,22 +109,22 @@ const Footer = () => {
           <h2>Follow Us</h2>
           <ul>
             <li>
-              <a href="https://www.facebook.com/sawlatours">
+              <a href="#">
                 <BsFacebook /> <span>Facebook</span>
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/sawlatours">
+              <a href="#">
                 <BsInstagram /> <span>Instagram</span>
               </a>
             </li>
             <li>
-              <a href="https://www.twitter.com/sawlatours">
+              <a href="#">
                 <BsTwitter /> <span>Twitter</span>
               </a>
             </li>
             <li>
-              <a href="https://www.youtube.com/sawlatours">
+              <a href="#">
                 <BsYoutube /> <span>YouTube</span>
               </a>
             </li>

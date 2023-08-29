@@ -24,12 +24,12 @@ const PackagesList = (props: Props) => {
   const cropString = crop;
   return (
     <div className="package-list-container">
-      <h1 className="title">
+      <div className="title">
         <BsInfoCircle />
         <br className="title-hide" />
         <span>{props.title}</span>
         <p className="title-description">{props.description}</p>
-      </h1>
+      </div>
       <div className="packages">
         {props.packages.map((packageItem, index) => {
           return (

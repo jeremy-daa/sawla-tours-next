@@ -39,7 +39,7 @@ export default function Home() {
       <IntroPackages
         title1="Our Popular"
         title2="Itineraries By Experience"
-        link="tours-by-experiences"
+        link="tours-by-experience"
         packages={ToursByExperienceArray}
       />
       <Intro
@@ -57,11 +57,12 @@ export default function Home() {
       />
       <Slider
         title="Banquet of Ethiopian Tour Themes"
-        description="Our most popular tours are listed below. These tours are designed to give you a taste of what is possible. We can tailor any itinerary to suit your requirements and interests."
+        description="Explore the diverse beauty of Ethiopia through our specially crafted tour themes, tailored to fit your unique interests and desires. Immerse yourself in a world of adventure, culture, and breathtaking landscapes. Embrace a journey like no other and let Ethiopia's mysteries awaken your wanderlust."
         cards={EthiopiaTourPackagesArray}
       />
       <PackagesList
         title="Ethiopia Popular Destinations"
+        description="Dive into uncharted territories and wilderness, be part of meaningful conservation efforts, elevate your travel dreams in untouched spots, and soak in genuine cultural moments."
         packages={DestinationPackagesArray.slice(0, 6)}
         link="/top-destinations"
         linkname="View All Destinations"

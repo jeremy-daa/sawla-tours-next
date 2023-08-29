@@ -26,6 +26,7 @@ export function generateMetadata({ params: { id } }: Params): Metadata {
 export default function page({ params: { id } }: Params) {
   const tour = getTour(Number(id));
   const isFourth = tour?.id === 4 || tour?.id === 8 ? true : false;
+  const isEighth = tour?.id === 8 ? true : false;
 
   return (
     <div>
@@ -140,7 +141,17 @@ export default function page({ params: { id } }: Params) {
                 link={tour?.intro[0].link}
               />
             )}
-
+            {isEighth && (
+              <Intro
+                title={tour?.intro[1].title}
+                description={tour?.intro[1].description}
+                lr
+                img1={tour?.intro[1].img1}
+                img2={tour?.intro[1].img2}
+                button={tour?.intro[1].button}
+                link={tour?.intro[1].link}
+              />
+            )}
             {tour?.itinerarydescription &&
               tour.itinerarydescription.map((itinerary, index) => (
                 <TrekkingDescription
@@ -151,7 +162,7 @@ export default function page({ params: { id } }: Params) {
                 />
               ))}
 
-            {tour.intro[1] && (
+            {!isEighth && tour.intro[1] && (
               <Intro
                 title={tour?.intro[1].title}
                 description={tour?.intro[1].description}
