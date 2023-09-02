@@ -201,7 +201,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
             "Explore the Merkato, one of the largest open-air markets in the world, and wander the vast range of goods and artifacts. You will have time for shopping.",
             "Overnight in Addis Ababa.",
           ],
-          image: images.addis2,
+          image: images.addis11,
         },
         {
           title: "DAY 8: DEPART FROM ADDIS ABABA",
@@ -1041,7 +1041,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
             "The museum is home to the fossilized humanoid Lucy (a 3.5 million year-old fossil), as well as an amazing collection of artifacts, royal items, and art. After lunch, you will continue our visit to St. George's Cathedral, built in 1896 by Emperor Menelik II. We end up the city tour by inviting you to the oldest and best coffee roaster and coffee shop-Tomoca. Not only do they serve fantastic Ethiopian coffee, they also offer other fine coffees.",
             "Overnight in Addis Ababa",
           ],
-          image: images.addis2,
+          image: images.addis12,
         },
         {
           title: "DAY 3: FLY TO BAHIR DAR & VISIT THE MONASTERIES ON LAKE TANA",
@@ -8321,7 +8321,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
           description: [
             "Game drive along the swamp lands of Gambella, looking for Shoebills, Nile lechwe as well as big herds of buffalo and lion. Depending on the time of year, witness incredible numbers of Kob on the edge of the Park. Evening walk in the vicinity of the camp.",
           ],
-          image: images.gambella2,
+          image: images.gambella4,
         },
         {
           title: "DAY 4: GAMBELLA NATIONAL PARK",
@@ -9870,7 +9870,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
             "Afterward, head to the National Museum of Ethiopia, where you can delve into the country's fascinating history and culture. Marvel at the renowned collection, including the famous hominid fossil 'Lucy' and a wide range of archaeological artifacts.",
             "Gain a deeper understanding of Ethiopia's past and its influence on the contemporary artistic expressions you'll encounter throughout your tour.",
           ],
-          image: images.addis1,
+          image: images.addis12,
         },
         {
           title: "DAY 2: LELA GALLERY & LAPHTO ART GALLERY",

@@ -954,14 +954,14 @@ export const PopularDestinationsArray: Destination[] = [
     id: 12,
     title: "Gambella National Park",
     description: "An untouched gem teeming with nature's grandeur",
-    image: images.gambella3,
+    image: images.gambella2,
     link: "#description",
     linkname: "Read More",
     index: false,
     intro: [
       {
         img1: images.gambella1,
-        img2: images.gambella2,
+        img2: images.gambella3,
         title: "An untouched gem teeming with nature's grandeur",
         subtitle: "",
         description: [
@@ -972,8 +972,8 @@ export const PopularDestinationsArray: Destination[] = [
         link: "#why",
       },
       {
-        img1: images.gambella1,
-        img2: images.gambella3,
+        img1: images.gambella4,
+        img2: images.gambella2,
         title: "Experience Gambella's Hidden Gem",
         subtitle: "",
         description: [
@@ -993,7 +993,7 @@ export const PopularDestinationsArray: Destination[] = [
           description: [
             "Prepare to be amazed by Gambella's mosaic of ecosystems, ranging from pristine highland forests to expansive wetlands. This park is a sanctuary for some of the world's rarest species. Keep your eyes peeled for sightings of the graceful Nile lechwe antelope and the endangered shoebill stork. Gambella is also home to the world's second-largest overland mammal migration, as the white-eared kob antelope traverses the South Sudanese border in awe-inspiring numbers. Marvel at this remarkable natural phenomenon as the antelopes return to Gambella when the conditions are favorable. For fishing enthusiasts, Gambella's waterways offer unparalleled diversity, boasting the highest variety of fish species in Ethiopia. Bird lovers will be enthralled by the astonishing array of avian life found within the park.",
           ],
-          image: images.gambella1,
+          image: images.gambella4,
         },
         {
           title: "A Wilderness Reserved for Explorers",
@@ -1131,7 +1131,7 @@ export const PopularDestinationsArray: Destination[] = [
           description: [
             "Explore several museums to suit your interests. For a moving experience, check out the Museum of the Martyrs (Red Terror Museum), which pays tribute to the victims of the Marxist Derg regime. Or, head to the National Museum of Ethiopia, widely regarded as the city's best museum. The museum boasts a rich collection of artistic, historical, and archaeological exhibits, including Lucy, the famous skeleton of Australopithecus, and our oldest hominid ancestor.",
           ],
-          image: images.addis1,
+          image: images.addis12,
         },
         {
           title: "Don't Miss St. Mary Church of Entoto",
@@ -1156,7 +1156,7 @@ export const PopularDestinationsArray: Destination[] = [
             "Nestled just a short distance west of Entoto Maryam, the historical Kidus Raguel Church stands as a timeless sentinel of Ethiopia's rich past. Founded by Menelik II in the 1880s, it is considered the oldest extant church in the immediate vicinity of Addis Ababa. With its handsome whitewashed octagonal structure adorned by a domed roof and a charming wooden balcony, Kidus Raguel is a masterful blend of tradition and artistry. Step inside, and the atmospheric interior will captivate you with its elaborate and well-preserved paintings dating back to the late 19th century. Near the main building, the remnants of the original Kidus Raguel whisper tales from the 12th or 13th century, its rock-hewn structure partially destroyed but holding a solemn grace.",
             "Just 200 meters away from Kidus Raguel, another historical marvel awaits you: the impressive remains of a lha pentagonal fort. Standing strong with a 520-meter stone perimeter wall reaching up to 5 meters high in parts, this majestic ruin once boasted a dozen towers. Thought to date back to around 1515, the fort's enigmatic design and significant stature stir intrigue and speculation. Some believe it may have been a part of the mysterious medieval city of Barara. Even if not, its commanding presence among recently rediscovered ruins serves as compelling evidence of Entoto's importance as an imperial power center in medieval times. The fort silently invites you to explore its history, unravel its mysteries, and connect with a past that shaped the nation. ",
           ],
-          image: images.raguel1,
+          image: images.addis14,
         },
         {
           title: "Indulge in Coffee",
@@ -1170,7 +1170,7 @@ export const PopularDestinationsArray: Destination[] = [
           description: [
             "Discover the largest open-air market in Africa, Addis Merkato. This giant sprawling market offers everything from electronics to imported clothes. While security is sound, be mindful of pickpockets and avoid carrying unnecessary belongings.",
           ],
-          image: images.addis4,
+          image: images.addis13,
         },
         {
           title: "Visit the Grand Palace of Menelik or Unity Park",

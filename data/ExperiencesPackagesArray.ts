@@ -559,7 +559,7 @@ export const ExperiencesPackagesArray: ExperiencePackage[] = [
           description:
             "Step into the unknown on a thrilling 6-day expedition into the heart of Ethiopia's remote and wild Gambella National Park. This itinerary is designed for wildlife enthusiasts seeking extraordinary encounters with diverse and elusive species. From the bustling city of Addis Ababa to the untouched wilderness of Gambella, this journey promises an immersive experience in Ethiopia's exceptional biodiversity. From the moment you arrive in Addis Ababa, you'll be immersed in the warmth of Ethiopian hospitality. Charter flights will transport you to the remote reaches of Gambella, where you'll be greeted by the camp team. Explore the park's swamp lands, home to iconic species like the Shoebill and Nile lechwe, and witness the incredible Kob migration. Visit Nuer cattle camps, gaining insight into the unique culture of this pastoral community. Game drives will take you through diverse habitats, in search of magnificent elephants, giraffes, lions, and an array of bird species. Return to Addis Ababa with memories of an unforgettable wilderness adventure in Ethiopia.",
           link: "/tours-by-experience/7/3",
-          image: images.gambella1,
+          image: images.gambella4,
           days: 6,
         },
         {
