@@ -9348,7 +9348,7 @@ export const ExperiencesPackageItineraryArray: Itinerary[] = [
             "You eventually arrive at your destination for this evening, Lake Langano. Set against the backdrop of the stunning Arsi Mountains, the lake is a popular destination for weekenders.",
             "Its muddy brown waters notwithstanding, it is one of the few lakes in the area that is reputedly bilharzia free. It is also a haven for birds that flock to the lake’s shore. You may well spot Hemprich’s hornbill here, as well as fan-tailed ravens and helmet strikes. Overnight in Langano.",
           ],
-          image: images.bahirdar1,
+          image: images.tiya1,
         },
         {
           title: "DAY 2: EXCURSION TO LEPHIS FOREST",

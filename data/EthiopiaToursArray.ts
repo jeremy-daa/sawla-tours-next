@@ -81,7 +81,7 @@ export const EthiopiaToursArray: Tour[] = [
         ],
         lr: false,
         img1: Images.axum5,
-        img2: Images.addis2,
+        img2: Images.tiya1,
         button: "Start Planning",
         link: "/enquire",
       },

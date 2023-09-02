@@ -675,7 +675,7 @@ export const PopularDestinationsArray: Destination[] = [
           description: [
             "These mountains are also home to the Oromo people, an agrarian community of 1.5 million people, who rely on these fertile lands for their seasonal grazing cycles. Harmonizing these community needs with wildlife preservation is a delicate balancing act, requiring sensitive stewardship.",
           ],
-          image: images.harar2,
+          image: images.sheikh1,
         },
         {
           title: "When to Visit and Getting There",
@@ -924,7 +924,7 @@ export const PopularDestinationsArray: Destination[] = [
           description: [
             "Wander through the labyrinthine streets of Harar and experience its vibrant markets, storied past, and captivating cultural artifacts. Explore the well-preserved Harar Jugol wall, an imposing fortress enveloping the ancient city. Dating back to the 13th to 16th century, this 3.5km long and 5-meter high wall once boasted five gates, each leading to different quarters of the city. This architectural marvel stands as a testament to Harar's historical significance.",
           ],
-          image: images.harar2,
+          image: images.sheikh1,
         },
         {
           title: "Encounter the Hyena Men",
@@ -938,14 +938,14 @@ export const PopularDestinationsArray: Destination[] = [
           description: [
             "Delve into Harar's rich heritage at the Sherif Harar City Museum, a treasure trove of artifacts from various regions, including Amhara, Gurage, Oromo, Somali, and Argoba. Explore an array of jewellery, coins, weaponry, textiles, and ancient manuscripts that offer glimpses into Ethiopia's diverse cultural tapestry. Additionally, visit the Arthur Rimbaud Museum, dedicated to the famed French poet who found inspiration in Harar. Marvel at his captivating photographs and delve into the poetic spirit of this mystical city.",
           ],
-          image: images.erbore1,
+          image: images.sheikh1,
         },
         {
           title: "Embrace the Vibrant Markets",
           description: [
             "Unleash your senses in Harar's bustling marketplaces, where a multitude of sights, sounds, and scents come alive. Stroll through the spice market, recycling market, Shoa Gate market, and the renowned Erer Gate market. From livestock to electronics, cultural dresses to herbs and spices, these vibrant marketplaces offer an immersive experience and a chance to indulge in some retail therapy while soaking up the electric atmosphere.",
           ],
-          image: images.harar3,
+          image: images.harar5,
         },
       ],
     },
