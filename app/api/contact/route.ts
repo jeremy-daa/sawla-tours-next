@@ -11,8 +11,8 @@ export async function POST(request: Request) {
     port: 465,
     secure: true,
     auth: {
-      user: credentials.email,
-      pass: credentials.password,
+      user: "ermiyas.dagnachew@gmail.com",
+      pass: "gndkehyrdkrjdlnx",
     },
     tls: {
       rejectUnauthorized: false,

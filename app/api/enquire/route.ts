@@ -25,8 +25,8 @@ export async function POST(request: Request) {
     port: 465,
     secure: true,
     auth: {
-      user: process.env.EMAIL,
-      pass: process.env.PASSWORD,
+      user: "ermiyas.dagnachew@gmail.com",
+      pass: "gndkehyrdkrjdlnx",
     },
     tls: {
       rejectUnauthorized: false,
