@@ -1,17 +1,18 @@
+import fetchCredentials from "@/functions/fetchCredentials";
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
 export async function POST(request: Request) {
   const body = await request.json();
   const { name, email, phone, message } = body;
-
+  const credentials = fetchCredentials();
   const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
     port: 465,
     secure: true,
     auth: {
-      user: process.env.EMAIL,
-      pass: process.env.PASSWORD,
+      user: credentials.email,
+      pass: credentials.password,
     },
     tls: {
       rejectUnauthorized: false,
