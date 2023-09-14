@@ -2,7 +2,7 @@
 
 import { useRef, useState } from "react";
 import { BsInfoCircle } from "react-icons/bs";
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 import { ToursByExperienceRoutes } from "@/data/PackagesArray";
 
 const EnquireForm = () => {
@@ -21,13 +21,15 @@ const EnquireForm = () => {
   const [hearAboutUs, setHearAboutUs] = useState("");
   const [message, setMessage] = useState("");
   const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
   const errorRef = useRef<HTMLDivElement>(null);
   const formRef = useRef<HTMLFormElement>(null);
 
-  emailjs.init("JTzxPvCsq4pDOMoqv");
+  // emailjs.init("JTzxPvCsq4pDOMoqv");
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    setLoading(true);
     if (name.length < 3) {
       setError("Name must be more than 3 characters");
       //go to error section and return
@@ -58,38 +60,72 @@ const EnquireForm = () => {
       setError("");
     }
     if (error === "") {
-      setName("");
-      setEmail("");
-      setPhone("");
-      setArrivalDate("");
-      setDepartureDate("");
-      setNumberOfTravelers("");
-      setPackageName("");
-      setDestination("");
-      setAccommodation("");
-      setActivities("");
-      setBudget("");
-      setCurrency("");
-      setMessage("");
       if (formRef.current) {
-        emailjs
-          .sendForm("service_yfk6tf8", "template_fvk7fj7", formRef.current)
-          .then(
-            (result) => {
-              if (result.text === "OK") {
-                alert(
-                  "Thank you for your enquiry. We will get back to you shortly."
-                );
-                if (formRef.current) formRef.current.reset();
-              }
-            },
-            (error) => {
-              alert(
-                "Sorry, there was an error sending your enquiry. \nPlease try again later or email us at abc@gmail.com"
-              );
-              console.log(error.text);
-            }
+        // emailjs
+        //   .sendForm("service_yfk6tf8", "template_fvk7fj7", formRef.current)
+        //   .then(
+        //     (result) => {
+        //       if (result.text === "OK") {
+        //         alert(
+        //           "Thank you for your enquiry. We will get back to you shortly."
+        //         );
+        //         if (formRef.current) formRef.current.reset();
+        //       }
+        //     },
+        //     (error) => {
+        //       alert(
+        //         "Sorry, there was an error sending your enquiry. \nPlease try again later or email us at abc@gmail.com"
+        //       );
+        //       console.log(error.text);
+        //     }
+        //   );
+        const data = {
+          name,
+          email,
+          phone,
+          arrivalDate,
+          departureDate,
+          numberOfTravelers,
+          packageName,
+          destination,
+          accommodation,
+          activities,
+          budget,
+          currency,
+          hearAboutUs,
+          message,
+        };
+        const res = await fetch("/api/enquire", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(data),
+        });
+        if (res.ok) {
+          alert("Thank you for your enquiry. We will get back to you shortly.");
+          setName("");
+          setEmail("");
+          setPhone("");
+          setArrivalDate("");
+          setDepartureDate("");
+          setNumberOfTravelers("");
+          setPackageName("");
+          setDestination("");
+          setAccommodation("");
+          setActivities("");
+          setBudget("");
+          setCurrency("");
+          setMessage("");
+          setLoading(false);
+          if (formRef.current) formRef.current.reset();
+        }
+        if (!res.ok) {
+          alert(
+            `Sorry, there was an error sending your enquiry. \nPlease try again later or email us at explore@sawlatours.com`
           );
+          setLoading(false);
+        }
       }
     }
   };
@@ -297,7 +333,7 @@ const EnquireForm = () => {
             />
           </div>
           <button type="submit" className="offset">
-            Submit
+            {!loading ? "Send" : "Sending..."}
           </button>
           <div className="confidentiality-statement">
             <p>

@@ -3,22 +3,23 @@ import { GoLocation } from "react-icons/go";
 import { MdAlternateEmail } from "react-icons/md";
 import { BsTelephone } from "react-icons/bs";
 import Images from "@/data/Images";
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
 
 const Contact = () => {
   const style = {
     background: `url("${Images.simien1}")  no-repeat center center / cover`,
   };
-  emailjs.init("JTzxPvCsq4pDOMoqv");
+  // emailjs.init("JTzxPvCsq4pDOMoqv");
   const [error, setError] = useState("");
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
+  const [loading, setLoading] = useState(false);
   const errorRef = useRef<HTMLDivElement>(null);
   const formRef = useRef<HTMLFormElement>(null);
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (name.length < 3) {
       setError("Name must be more than 3 characters");
@@ -38,29 +39,63 @@ const Contact = () => {
       setError("");
     }
     if (error === "") {
-      setName("");
-      setEmail("");
-      setPhone("");
-      setMessage("");
+      setLoading(true);
       if (formRef.current) {
-        emailjs
-          .sendForm("service_yfk6tf8", "template_adicuq9", formRef.current)
-          .then(
-            (result) => {
-              if (result.text === "OK") {
-                alert(
-                  "Thank you for your enquiry. We will get back to you shortly."
-                );
-                if (formRef.current) formRef.current.reset();
-              }
-            },
-            (error) => {
-              alert(
-                "Sorry, there was an error sending your enquiry. \nPlease try again later or email us at abc@gmail.com"
-              );
-              console.log(error.text);
-            }
+        // emailjs
+        //   .sendForm("service_yfk6tf8", "template_adicuq9", formRef.current)
+        //   .then(
+        //     (result) => {
+        //       if (result.text === "OK") {
+        //         alert(
+        //           "Thank you for your enquiry. We will get back to you shortly."
+        //         );
+        //         setName("");
+        //         setEmail("");
+        //         setPhone("");
+        //         setMessage("");
+        //         setLoading(false);
+        //         if (formRef.current) formRef.current.reset();
+        //       }
+        //     },
+        //     (error) => {
+        //       alert(
+        //         "Sorry, there was an error sending your enquiry. \nPlease try again later or email us at abc@gmail.com"
+        //       );
+        //       console.log(error.text);
+        //       setLoading(false);
+        //     }
+        // );
+        const data = {
+          name,
+          email,
+          phone,
+          message,
+        };
+
+        const res = await fetch("/api/contact", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(data),
+        });
+        if (res.ok) {
+          alert(
+            "Thank you for your feedback. We will get back to you shortly."
           );
+          setName("");
+          setEmail("");
+          setPhone("");
+          setMessage("");
+          setLoading(false);
+          if (formRef.current) formRef.current.reset();
+        }
+        if (!res.ok) {
+          alert(
+            `Sorry, there was an error sending your enquiry. \nPlease try again later or email us at explore@sawlatours.com`
+          );
+          setLoading(false);
+        }
       }
     }
   };
@@ -73,15 +108,17 @@ const Contact = () => {
             <div className="info">
               <GoLocation />
 
-              <a href="https://maps.google.com/">Addis Ababa, Ethiopia</a>
+              <a href="https://goo.gl/maps/Hfv6dQPWspUmUYDA6">
+                Addis Ababa, Ethiopia
+              </a>
             </div>
             <div className="info">
               <MdAlternateEmail />
-              <a href="mailto:example@gmail.com">example@gmail.com</a>
+              <a href="mailto:explore@sawlatours.com">explore@sawlatours.com</a>
             </div>
             <div className="info">
               <BsTelephone />
-              <a href="tel:+251-911-111-111">+251-911-111-111</a>
+              <a href="tel:+25170578306">+251 705 783 06</a>
             </div>
           </div>
         </div>
@@ -124,7 +161,7 @@ const Contact = () => {
             name="message"
           ></textarea>
           <button type="submit" className="offset">
-            Send
+            {!loading ? "Send" : "Sending..."}
           </button>
         </form>
       </div>

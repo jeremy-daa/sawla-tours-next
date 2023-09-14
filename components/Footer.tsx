@@ -25,31 +25,33 @@ const Footer = () => {
           </h1>
           <ul>
             <li>
-              <Link href="tel:+251911111111">+251 911 111 111</Link>
+              <Link href="tel:+25170578306">+251 705 783 06</Link>
             </li>
             <li>
-              <a href="mailto:sawlayours@gmail.com">Mail Us</a>
+              <a href="mailto:explore@sawlatours.com">Mail Us</a>
             </li>
             <li>
-              <a href="#">Addis Ababa, Ethiopia</a>
+              <a href="https://goo.gl/maps/Hfv6dQPWspUmUYDA6">
+                Addis Ababa, Ethiopia
+              </a>
             </li>
           </ul>
 
           <h2 className="contact-us">Office Hours</h2>
           <ul>
             <li>
-              <a href="#">Monday - Friday</a>
+              <a>Monday - Friday</a>
             </li>
             <li>
-              <a href="#">09:00 - 17:30</a>
+              <a>09:00 AM - 5:30 PM</a>
             </li>
           </ul>
           <ul>
             <li>
-              <a href="#">Saturday</a>
+              <a>Saturday</a>
             </li>
             <li>
-              <a href="#">10:00 - 13:00 </a>
+              <a>10:00 AM - 1:00 PM</a>
             </li>
           </ul>
         </div>

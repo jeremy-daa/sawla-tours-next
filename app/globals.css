@@ -2747,7 +2747,7 @@ input[type="checkbox"] {
   letter-spacing: 1px;
   font-family: "Averia Serif Libre", cursive;
   text-transform: uppercase;
-  color: var(--theme);
+  color: var(--light);
 }
 
 .enquire-form-group label {
