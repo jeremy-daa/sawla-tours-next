@@ -113,7 +113,7 @@ const Images = {
   lalibela10: "/assets/lalibela_10.jpg",
   lalibela11: "/assets/lalibela_11.jpg",
   logo_dark: "/assets/logo_dark.png",
-  logo: "public/assets/logo.png",
+  logo: "./public/assets/logo.png",
   mursi1: "/assets/mursi_1.jpg",
   omo1: "/assets/omo_1.jpg",
   omo2: "/assets/omo_2.jpg",
