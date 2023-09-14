@@ -1,3 +1,4 @@
+import fetchCredentials from "@/functions/fetchCredentials";
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
@@ -19,14 +20,14 @@ export async function POST(request: Request) {
     hearAboutUs,
     message,
   } = body;
-
+  const credentials = fetchCredentials();
   const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
     port: 465,
     secure: true,
     auth: {
-      user: "ermiyas.dagnachew@gmail.com",
-      pass: "gndkehyrdkrjdlnx",
+      user: credentials.email,
+      pass: credentials.password,
     },
     tls: {
       rejectUnauthorized: false,
@@ -36,8 +37,8 @@ export async function POST(request: Request) {
     return str.replace(/\n/g, "<br />");
   };
   const mailOptions = {
-    from: process.env.EMAIL,
-    to: process.env.EMAIL,
+    from: credentials.email,
+    to: credentials.email,
     subject: `Enquiry form from ${name}`,
     // text: ` Name: ${name} \n Email: ${email} \n Phone: ${phone}\n\n Message: ${message} `,
     text: ` Name: ${name} \n Email: ${email} \n Phone: ${phone}\n Arrival Date: ${arrivalDate}\n Departure Date: ${departureDate}\n Number of Travelers: ${numberOfTravelers}\n Package Name: ${packageName}\n Destination: ${destination}\n Accommodation: ${accommodation}\n Activities: ${activities}\n Budget: ${budget}\n Currency: ${currency}\n How did you hear about us?: ${hearAboutUs}\n\n Message: ${message} `,

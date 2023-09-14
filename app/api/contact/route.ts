@@ -11,16 +11,16 @@ export async function POST(request: Request) {
     port: 465,
     secure: true,
     auth: {
-      user: "ermiyas.dagnachew@gmail.com",
-      pass: "gndkehyrdkrjdlnx",
+      user: credentials.email,
+      pass: credentials.password,
     },
     tls: {
       rejectUnauthorized: false,
     },
   });
   const mailOptions = {
-    from: process.env.EMAIL,
-    to: process.env.EMAIL,
+    from: credentials.email,
+    to: credentials.email,
     subject: `Contact form from ${name}`,
     text: ` Name: ${name} \n Email: ${email} \n Phone: ${phone}\n\n Message: ${message} `,
     html: `<table style="max-width: 37.5em; border-width: 1px; border-style: solid; border-color: rgb(199, 199, 199); box-shadow: rgba(0, 0, 0, 0.45) 0px 0px 10px; border-radius: 0.25rem; padding: 20px; width: 465px; margin: 40px auto 40px auto;" role="presentation" border="0" width="100%" cellspacing="0" cellpadding="0" align="center" data-id="__react-email-container">

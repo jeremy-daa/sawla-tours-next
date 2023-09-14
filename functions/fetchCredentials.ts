@@ -1,7 +1,7 @@
 function fetchCredentials() {
   return {
-    email: "ermiyas.dagnachew@gmail.com",
-    password: "gndkehyrdkrjdlnx",
+    email: "exploresawla@gmail.com",
+    password: "eryyveueknkqttus",
   };
 }
 
